@@ -1,0 +1,3 @@
+#!/bin/sh
+# Run as root to bind to ports 80/443
+exec /usr/local/bin/traefik --configFile=/config/traefik.yml 2>&1

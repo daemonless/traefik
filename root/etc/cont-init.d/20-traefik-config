@@ -1,0 +1,51 @@
+#!/bin/sh
+
+# Update traefik user UID/GID to match PUID/PGID
+if [ -n "${PUID}" ] && [ "${PUID}" != "360" ]; then
+fi
+
+if [ -n "${PGID}" ] && [ "${PGID}" != "360" ]; then
+    pw groupmod traefik -g "${PGID}"
+fi
+
+# Create default static config if not exists
+if [ ! -f /config/traefik.yml ]; then
+    cat > /config/traefik.yml << 'EOF'
+# Traefik Static Configuration
+api:
+  dashboard: true
+  insecure: true
+
+entryPoints:
+  web:
+    address: ":80"
+    http:
+      redirections:
+        entryPoint:
+          to: websecure
+          scheme: https
+  websecure:
+    address: ":443"
+
+providers:
+  file:
+    directory: /config/dynamic
+    watch: true
+
+# TLS configuration - update paths as needed
+# tls:
+#   certificates:
+#     - certFile: /config/letsencrypt/cert.pem
+#       keyFile: /config/letsencrypt/cert-key.pem
+
+log:
+  level: INFO
+EOF
+    echo "Created default /config/traefik.yml"
+fi
+
+# Create dynamic config directory if not exists
+mkdir -p /config/dynamic /config/letsencrypt
+
+# Fix ownership
+chown -R bsd:bsd /config
