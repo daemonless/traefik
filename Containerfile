@@ -2,26 +2,31 @@ ARG BASE_VERSION=15
 FROM ghcr.io/daemonless/base:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
+ARG PACKAGES="ca_root_nss"
 LABEL org.opencontainers.image.title="traefik" \
-      org.opencontainers.image.description="Traefik reverse proxy on FreeBSD" \
-      org.opencontainers.image.source="https://github.com/daemonless/traefik" \
-      org.opencontainers.image.url="https://traefik.io/" \
-      org.opencontainers.image.documentation="https://doc.traefik.io/traefik/" \
-      org.opencontainers.image.licenses="MIT" \
-      org.opencontainers.image.vendor="daemonless" \
-      org.opencontainers.image.authors="daemonless" \
-      io.daemonless.port="80,443,8080" \
-      io.daemonless.arch="${FREEBSD_ARCH}"
+    org.opencontainers.image.description="Traefik reverse proxy on FreeBSD" \
+    org.opencontainers.image.source="https://github.com/daemonless/traefik" \
+    org.opencontainers.image.url="https://traefik.io/" \
+    org.opencontainers.image.documentation="https://doc.traefik.io/traefik/" \
+    org.opencontainers.image.licenses="MIT" \
+    org.opencontainers.image.vendor="daemonless" \
+    org.opencontainers.image.authors="daemonless" \
+    io.daemonless.port="80,443,8080" \
+    io.daemonless.arch="${FREEBSD_ARCH}" \
+    io.daemonless.category="Infrastructure" \
+    io.daemonless.upstream-mode="github" \
+    io.daemonless.upstream-repo="traefik/traefik" \
+    io.daemonless.packages="${PACKAGES}"
 
 # Install ca_root_nss for HTTPS backends
 RUN pkg update && \
-    pkg install -y ca_root_nss && \
+    pkg install -y ${PACKAGES} && \
     pkg clean -ay && \
     rm -rf /var/cache/pkg/* /var/db/pkg/repos/*
 
 # Download and install Traefik
 RUN TRAEFIK_VERSION=$(fetch -qo - "https://api.github.com/repos/traefik/traefik/releases/latest" | \
-        sed -n 's/.*"tag_name": *"\([^"]*\)".*/\1/p') && \
+    sed -n 's/.*"tag_name": *"\([^"]*\)".*/\1/p') && \
     echo "Installing Traefik $TRAEFIK_VERSION" && \
     fetch -qo /tmp/traefik.tar.gz "https://github.com/traefik/traefik/releases/download/${TRAEFIK_VERSION}/traefik_${TRAEFIK_VERSION}_freebsd_amd64.tar.gz" && \
     mkdir -p /usr/local/bin && \
