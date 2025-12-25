@@ -3,7 +3,7 @@ FROM ghcr.io/daemonless/base:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
 ARG PACKAGES="ca_root_nss"
-LABEL org.opencontainers.image.title="traefik" \
+LABEL org.opencontainers.image.title="Traefik" \
     org.opencontainers.image.description="Traefik reverse proxy on FreeBSD" \
     org.opencontainers.image.source="https://github.com/daemonless/traefik" \
     org.opencontainers.image.url="https://traefik.io/" \
