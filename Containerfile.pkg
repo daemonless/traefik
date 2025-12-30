@@ -2,6 +2,7 @@ ARG BASE_VERSION=15
 FROM ghcr.io/daemonless/base:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
+ARG PKG_NAME=traefik
 LABEL org.opencontainers.image.title="Traefik" \
       org.opencontainers.image.description="Traefik reverse proxy on FreeBSD" \
       org.opencontainers.image.source="https://github.com/daemonless/traefik" \
@@ -11,12 +12,13 @@ LABEL org.opencontainers.image.title="Traefik" \
       org.opencontainers.image.vendor="daemonless" \
       org.opencontainers.image.authors="daemonless" \
       io.daemonless.port="80,443,8080" \
-      io.daemonless.arch="${FREEBSD_ARCH}"
+      io.daemonless.arch="${FREEBSD_ARCH}" \
+      io.daemonless.pkg-name="${PKG_NAME}"
 
-# Install Traefik from FreeBSD packages
+# Install from FreeBSD packages
 RUN pkg update && \
-    pkg install -y traefik ca_root_nss && \
-    TRAEFIK_VERSION=$(pkg info traefik | sed -n 's/.*Version.*: *//p') && \
+    pkg install -y ${PKG_NAME} ca_root_nss && \
+    TRAEFIK_VERSION=$(pkg info ${PKG_NAME} | sed -n 's/.*Version.*: *//p') && \
     mkdir -p /app && echo "$TRAEFIK_VERSION" > /app/version && \
     pkg clean -ay && \
     rm -rf /var/cache/pkg/* /var/db/pkg/repos/*
