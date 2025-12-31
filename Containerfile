@@ -4,7 +4,7 @@ FROM ghcr.io/daemonless/base:${BASE_VERSION}
 ARG FREEBSD_ARCH=amd64
 ARG PACKAGES="ca_root_nss"
 ARG UPSTREAM_URL="https://api.github.com/repos/traefik/traefik/releases/latest"
-ARG UPSTREAM_SED="s/.*\"tag_name\":\"\\([^\"]*\\)\".*/\\1/p"
+ARG UPSTREAM_JQ=".tag_name"
 
 LABEL org.opencontainers.image.title="Traefik" \
     org.opencontainers.image.description="Traefik reverse proxy on FreeBSD" \
@@ -18,7 +18,7 @@ LABEL org.opencontainers.image.title="Traefik" \
     io.daemonless.arch="${FREEBSD_ARCH}" \
     io.daemonless.category="Infrastructure" \
     io.daemonless.upstream-url="${UPSTREAM_URL}" \
-    io.daemonless.upstream-sed="${UPSTREAM_SED}" \
+    io.daemonless.upstream-jq="${UPSTREAM_JQ}" \
     io.daemonless.packages="${PACKAGES}"
 
 # Install ca_root_nss for HTTPS backends
