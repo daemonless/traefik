@@ -5,6 +5,9 @@ ARG FREEBSD_ARCH=amd64
 ARG PACKAGES="ca_root_nss"
 ARG UPSTREAM_URL="https://api.github.com/repos/traefik/traefik/releases/latest"
 ARG UPSTREAM_JQ=".tag_name"
+ARG HEALTHCHECK_ENDPOINT="http://localhost:8080/ping"
+
+ENV HEALTHCHECK_URL="${HEALTHCHECK_ENDPOINT}"
 
 LABEL org.opencontainers.image.title="Traefik" \
     org.opencontainers.image.description="Traefik reverse proxy on FreeBSD" \
@@ -19,6 +22,7 @@ LABEL org.opencontainers.image.title="Traefik" \
     io.daemonless.category="Infrastructure" \
     io.daemonless.upstream-url="${UPSTREAM_URL}" \
     io.daemonless.upstream-jq="${UPSTREAM_JQ}" \
+    io.daemonless.healthcheck-url="${HEALTHCHECK_ENDPOINT}" \
     io.daemonless.packages="${PACKAGES}"
 
 # Install ca_root_nss for HTTPS backends
@@ -46,7 +50,7 @@ RUN mkdir -p /config /config/dynamic /config/letsencrypt && \
 
 COPY root/ /
 
-RUN chmod +x /healthz /etc/services.d/traefik/run /etc/cont-init.d/* 2>/dev/null || true
+RUN chmod +x /etc/services.d/traefik/run /etc/cont-init.d/* 2>/dev/null || true
 
 RUN mkdir -p /run/s6/services/traefik && \
     ln -sf /etc/services.d/traefik/run /run/s6/services/traefik/run

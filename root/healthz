@@ -1,4 +1,0 @@
-#!/bin/sh
-# Healthcheck for Traefik
-TIMEOUT="${HEALTHCHECK_TIMEOUT:-5}"
-exec fetch -qo /dev/null -T "$TIMEOUT" http://localhost:8080/ping
