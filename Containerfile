@@ -29,7 +29,7 @@ RUN pkg update && \
 
 # Download and install Traefik
 RUN TRAEFIK_VERSION=$(fetch -qo - "${UPSTREAM_URL}" | \
-    sed -n "${UPSTREAM_SED}" | head -1) && \
+    jq -r "${UPSTREAM_JQ}") && \
     echo "Installing Traefik $TRAEFIK_VERSION" && \
     fetch -qo /tmp/traefik.tar.gz "https://github.com/traefik/traefik/releases/download/${TRAEFIK_VERSION}/traefik_${TRAEFIK_VERSION}_freebsd_amd64.tar.gz" && \
     mkdir -p /usr/local/bin && \
