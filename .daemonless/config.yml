@@ -1,5 +1,51 @@
-icon: ':material-router-network:'
-cit:
-  mode: health
-  port: 8080
-  health: /ping
+description: Modern HTTP reverse proxy and load balancer.
+category: Infrastructure
+tags:
+  - latest
+upstream_url: https://github.com/traefik/traefik
+web_url: https://traefik.io/
+# No freshports link in current README, but it exists. using current README data.
+
+# Flags
+mlock: false
+user: bsd
+healthcheck: /healthz
+
+# Configuration
+env:
+  - name: PUID
+    default: "1000"
+    desc: User ID for the application process
+  - name: PGID
+    default: "1000"
+    desc: Group ID for the application process
+  - name: TZ
+    default: UTC
+    desc: Timezone for the container
+  - name: S6_LOG_ENABLE
+    default: "1"
+    desc: Enable/Disable file logging
+  - name: S6_LOG_MAX_SIZE
+    default: "1048576"
+    desc: Max size per log file (bytes)
+  - name: S6_LOG_MAX_FILES
+    default: "10"
+    desc: Number of rotated log files to keep
+
+volumes:
+  - path: /config
+    desc: Configuration directory (traefik.yml, dynamic/, letsencrypt/)
+
+ports:
+  - port: 80
+    name: http
+    desc: HTTP
+    protocol: tcp
+  - port: 443
+    name: https
+    desc: HTTPS
+    protocol: tcp
+  - port: 8080
+    name: dashboard
+    desc: Dashboard/API
+    protocol: tcp

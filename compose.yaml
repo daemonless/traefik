@@ -1,0 +1,43 @@
+name: traefik
+
+x-daemonless:
+  title: "Traefik"
+  icon: ":material-server-network:"
+  category: "Infrastructure"
+  description: "Modern HTTP reverse proxy and load balancer on FreeBSD."
+  upstream_url: "https://github.com/traefik/traefik"
+  web_url: "https://traefik.io/"
+  freshports_url: "https://www.freshports.org/net/traefik/"
+  user: "bsd"
+  mlock: false
+  
+  docs:
+    env:
+      PUID: "User ID for the application process"
+      PGID: "Group ID for the application process"
+      TZ: "Timezone for the container"
+    volumes:
+      /config: "Configuration directory (traefik.yml, dynamic/, letsencrypt/)"
+    ports:
+      80: "HTTP"
+      443: "HTTPS"
+      8080: "Dashboard/API"
+
+services:
+  traefik:
+    image: ghcr.io/daemonless/traefik:latest
+    container_name: traefik
+    restart: unless-stopped
+    
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+
+    volumes:
+      - /path/to/containers/traefik:/config
+
+    ports:
+      - "80:80"
+      - "443:443"
+      - "8080:8080"

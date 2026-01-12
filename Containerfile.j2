@@ -5,22 +5,33 @@ ARG FREEBSD_ARCH=amd64
 ARG PACKAGES="ca_root_nss"
 ARG UPSTREAM_URL="https://api.github.com/repos/traefik/traefik/releases/latest"
 ARG UPSTREAM_JQ=".tag_name"
+{%- if ports %}
+ARG HEALTHCHECK_ENDPOINT="http://localhost:{{ ports[2].port }}/ping"
+{%- else %}
 ARG HEALTHCHECK_ENDPOINT="http://localhost:8080/ping"
+{%- endif %}
 
 ENV HEALTHCHECK_URL="${HEALTHCHECK_ENDPOINT}"
 
 # --- Metadata (Injected by Generator) ---
-LABEL org.opencontainers.image.title="Traefik" \
-      org.opencontainers.image.description="Modern HTTP reverse proxy and load balancer on FreeBSD." \
-      org.opencontainers.image.source="https://github.com/daemonless/traefik" \
-      org.opencontainers.image.url="https://traefik.io/" \
+LABEL org.opencontainers.image.title="{{ title }}" \
+      org.opencontainers.image.description="{{ description }}" \
+      org.opencontainers.image.source="{{ repo_url }}" \
+      org.opencontainers.image.url="{{ web_url }}" \
       org.opencontainers.image.documentation="https://doc.traefik.io/traefik/" \
       org.opencontainers.image.licenses="MIT" \
       org.opencontainers.image.vendor="daemonless" \
       org.opencontainers.image.authors="daemonless" \
-      io.daemonless.category="Infrastructure" \
-      io.daemonless.port="80" \
-      io.daemonless.volumes="/config" \
+      io.daemonless.category="{{ category }}" \
+{%- if ports %}
+      io.daemonless.port="{{ ports[0].port }}" \
+{%- endif %}
+{%- if volumes %}
+      io.daemonless.volumes="{{ volumes | map(attribute='path') | join(',') }}" \
+{%- endif %}
+{%- if mlock %}
+      org.freebsd.jail.allow.mlock="required" \
+{%- endif %}
       io.daemonless.arch="${FREEBSD_ARCH}" \
       io.daemonless.upstream-url="${UPSTREAM_URL}" \
       io.daemonless.upstream-jq="${UPSTREAM_JQ}" \
@@ -56,7 +67,11 @@ RUN mkdir -p /run/s6/services/traefik && \
     ln -sf /etc/services.d/traefik/run /run/s6/services/traefik/run
 
 # --- Expose (Injected by Generator) ---
-EXPOSE 80 443 8080
+{%- if ports %}
+EXPOSE {{ ports | map(attribute='port') | join(' ') }}
+{%- endif %}
 
 # --- Volumes (Injected by Generator) ---
-VOLUME /config
+{%- if volumes %}
+VOLUME {{ volumes | map(attribute='path') | join(' ') }}
+{%- endif %}
