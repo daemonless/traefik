@@ -1,11 +1,11 @@
 {
   "image": "traefik",
-  "generated": "2026-02-01T22:44:20Z",
+  "generated": "2026-02-02T13:56:59Z",
   "tags": {
     "latest": {
       "app_version": "v3.6.7",
       "source": "upstream-binary",
-      "generated": "2026-02-01T22:27:18Z",
+      "generated": "2026-02-02T13:56:41Z",
       "packages": {
         "freebsd": [
           {
@@ -174,7 +174,7 @@
     "pkg-latest": {
       "app_version": "3.6.6_1",
       "source": "freebsd-latest",
-      "generated": "2026-02-01T22:29:10Z",
+      "generated": "2026-02-02T13:41:29Z",
       "packages": {
         "freebsd": [
           {
@@ -347,7 +347,7 @@
     "pkg": {
       "app_version": "3.6.6_1",
       "source": "freebsd-quarterly",
-      "generated": "2026-02-01T22:28:05Z",
+      "generated": "2026-02-02T13:52:54Z",
       "packages": {
         "freebsd": [
           {
