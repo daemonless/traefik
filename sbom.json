@@ -1,12 +1,12 @@
 {
   "image": "traefik",
-  "generated": "2026-02-06T00:22:23Z",
+  "generated": "2026-02-11T08:41:38Z",
   "tags": {
     "latest": {
       "arch": "amd64",
       "app_version": "v3.6.7",
       "source": "upstream-binary",
-      "generated": "2026-02-06T00:17:17Z",
+      "generated": "2026-02-11T08:41:06Z",
       "packages": {
         "freebsd": [
           {
@@ -159,8 +159,6 @@
           }
         ],
         "dotnet": [],
-        "python": [],
-        "node": [],
         "go": [
           {
             "name": "cloud.google.com/go/auth",
@@ -1562,22 +1560,32 @@
             "name": "stdlib",
             "version": "v1.24.11"
           }
-        ]
+        ],
+        "java": [],
+        "node": [],
+        "php": [],
+        "python": [],
+        "ruby": [],
+        "rust": []
       },
       "summary": {
         "freebsd": 37,
         "dotnet": 0,
-        "python": 0,
-        "node": 0,
         "go": 350,
+        "java": 0,
+        "node": 0,
+        "php": 0,
+        "python": 0,
+        "ruby": 0,
+        "rust": 0,
         "total": 387
       }
     },
     "pkg-latest": {
       "arch": "amd64",
-      "app_version": "3.6.6_1",
+      "app_version": "3.6.7",
       "source": "freebsd-latest",
-      "generated": "2026-02-06T00:14:29Z",
+      "generated": "2026-02-11T08:41:26Z",
       "packages": {
         "freebsd": [
           {
@@ -1730,16 +1738,14 @@
           },
           {
             "name": "traefik",
-            "version": "3.6.6_1"
+            "version": "3.6.7"
           }
         ],
         "dotnet": [],
-        "python": [],
-        "node": [],
         "go": [
           {
             "name": "cloud.google.com/go/auth",
-            "version": "v0.17.0"
+            "version": "v0.18.0"
           },
           {
             "name": "cloud.google.com/go/auth/oauth2adapt",
@@ -1819,7 +1825,7 @@
           },
           {
             "name": "github.com/BurntSushi/toml",
-            "version": "v1.5.0"
+            "version": "v1.6.0"
           },
           {
             "name": "github.com/HdrHistogram/hdrhistogram-go",
@@ -1859,7 +1865,7 @@
           },
           {
             "name": "github.com/alibabacloud-go/tea",
-            "version": "v1.3.14"
+            "version": "v1.4.0"
           },
           {
             "name": "github.com/alibabacloud-go/tea-utils/v2",
@@ -1959,7 +1965,7 @@
           },
           {
             "name": "github.com/baidubce/bce-sdk-go",
-            "version": "v0.9.254"
+            "version": "v0.9.256"
           },
           {
             "name": "github.com/benbjohnson/clock",
@@ -2075,7 +2081,7 @@
           },
           {
             "name": "github.com/exoscale/egoscale/v3",
-            "version": "v3.1.31"
+            "version": "v3.1.33"
           },
           {
             "name": "github.com/fatih/color",
@@ -2111,11 +2117,15 @@
           },
           {
             "name": "github.com/go-acme/esa-20240910/v2",
-            "version": "v2.40.3"
+            "version": "v2.44.0"
+          },
+          {
+            "name": "github.com/go-acme/jdcloud-sdk-go",
+            "version": "v1.64.0"
           },
           {
             "name": "github.com/go-acme/lego/v4",
-            "version": "v4.30.1"
+            "version": "v4.31.0"
           },
           {
             "name": "github.com/go-acme/tencentclouddnspod",
@@ -2183,7 +2193,7 @@
           },
           {
             "name": "github.com/go-resty/resty/v2",
-            "version": "v2.17.0"
+            "version": "v2.17.1"
           },
           {
             "name": "github.com/go-viper/mapstructure/v2",
@@ -2200,6 +2210,10 @@
           {
             "name": "github.com/gofrs/flock",
             "version": "v0.13.0"
+          },
+          {
+            "name": "github.com/gofrs/uuid",
+            "version": "v4.4.0+incompatible"
           },
           {
             "name": "github.com/gogo/protobuf",
@@ -2231,7 +2245,7 @@
           },
           {
             "name": "github.com/google/go-querystring",
-            "version": "v1.1.0"
+            "version": "v1.2.0"
           },
           {
             "name": "github.com/google/s2a-go",
@@ -2247,7 +2261,7 @@
           },
           {
             "name": "github.com/googleapis/gax-go/v2",
-            "version": "v2.15.0"
+            "version": "v2.16.0"
           },
           {
             "name": "github.com/gophercloud/gophercloud",
@@ -2339,7 +2353,7 @@
           },
           {
             "name": "github.com/huaweicloud/huaweicloud-sdk-go-v3",
-            "version": "v0.1.180"
+            "version": "v0.1.182"
           },
           {
             "name": "github.com/iij/doapi",
@@ -2427,7 +2441,7 @@
           },
           {
             "name": "github.com/linode/linodego",
-            "version": "v1.62.0"
+            "version": "v1.64.0"
           },
           {
             "name": "github.com/liquidweb/liquidweb-cli",
@@ -2559,11 +2573,11 @@
           },
           {
             "name": "github.com/nrdcg/oci-go-sdk/common/v1065",
-            "version": "v1065.105.1"
+            "version": "v1065.105.2"
           },
           {
             "name": "github.com/nrdcg/oci-go-sdk/dns/v1065",
-            "version": "v1065.105.1"
+            "version": "v1065.105.2"
           },
           {
             "name": "github.com/nrdcg/porkbun",
@@ -2683,7 +2697,7 @@
           },
           {
             "name": "github.com/scaleway/scaleway-sdk-go",
-            "version": "v1.0.0-beta.35"
+            "version": "v1.0.0-beta.36"
           },
           {
             "name": "github.com/selectel/domains-go",
@@ -2751,7 +2765,7 @@
           },
           {
             "name": "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common",
-            "version": "v1.3.12"
+            "version": "v1.3.28"
           },
           {
             "name": "github.com/tetratelabs/wazero",
@@ -2807,7 +2821,7 @@
           },
           {
             "name": "github.com/volcengine/volc-sdk-golang",
-            "version": "v1.0.230"
+            "version": "v1.0.233"
           },
           {
             "name": "github.com/vulcand/oxy/v2",
@@ -2819,7 +2833,7 @@
           },
           {
             "name": "github.com/vultr/govultr/v3",
-            "version": "v3.26.0"
+            "version": "v3.26.1"
           },
           {
             "name": "github.com/x448/float16",
@@ -2827,15 +2841,15 @@
           },
           {
             "name": "github.com/yandex-cloud/go-genproto",
-            "version": "v0.41.0"
+            "version": "v0.43.0"
           },
           {
             "name": "github.com/yandex-cloud/go-sdk/services/dns",
-            "version": "v0.0.23"
+            "version": "v0.0.25"
           },
           {
             "name": "github.com/yandex-cloud/go-sdk/v2",
-            "version": "v2.33.0"
+            "version": "v2.37.0"
           },
           {
             "name": "github.com/youmark/pkcs8",
@@ -3015,23 +3029,23 @@
           },
           {
             "name": "google.golang.org/api",
-            "version": "v0.257.0"
+            "version": "v0.259.0"
           },
           {
             "name": "google.golang.org/genproto/googleapis/api",
-            "version": "v0.0.0-20251022142026-3a174f9686a8"
+            "version": "v0.0.0-20251202230838-ff82c1b0f217"
           },
           {
             "name": "google.golang.org/genproto/googleapis/rpc",
-            "version": "v0.0.0-20251124214823-79d6a2a48846"
+            "version": "v0.0.0-20251222181119-0a764e51fe1b"
           },
           {
             "name": "google.golang.org/grpc",
-            "version": "v1.77.0"
+            "version": "v1.78.0"
           },
           {
             "name": "google.golang.org/protobuf",
-            "version": "v1.36.10"
+            "version": "v1.36.11"
           },
           {
             "name": "gopkg.in/evanphx/json-patch.v4",
@@ -3063,19 +3077,19 @@
           },
           {
             "name": "k8s.io/api",
-            "version": "v0.34.1"
+            "version": "v0.34.3"
           },
           {
             "name": "k8s.io/apiextensions-apiserver",
-            "version": "v0.34.1"
+            "version": "v0.34.3"
           },
           {
             "name": "k8s.io/apimachinery",
-            "version": "v0.34.1"
+            "version": "v0.34.3"
           },
           {
             "name": "k8s.io/client-go",
-            "version": "v0.34.1"
+            "version": "v0.34.3"
           },
           {
             "name": "k8s.io/klog/v2",
@@ -3119,7 +3133,7 @@
           },
           {
             "name": "sigs.k8s.io/structured-merge-diff/v6",
-            "version": "v6.3.0"
+            "version": "v6.3.1"
           },
           {
             "name": "sigs.k8s.io/yaml",
@@ -3127,24 +3141,34 @@
           },
           {
             "name": "stdlib",
-            "version": "v1.24.12"
+            "version": "v1.24.13"
           }
-        ]
+        ],
+        "java": [],
+        "node": [],
+        "php": [],
+        "python": [],
+        "ruby": [],
+        "rust": []
       },
       "summary": {
         "freebsd": 38,
         "dotnet": 0,
-        "python": 0,
+        "go": 350,
+        "java": 0,
         "node": 0,
-        "go": 348,
-        "total": 386
+        "php": 0,
+        "python": 0,
+        "ruby": 0,
+        "rust": 0,
+        "total": 388
       }
     },
     "pkg": {
       "arch": "amd64",
-      "app_version": "3.6.6_1",
+      "app_version": "3.6.6_2",
       "source": "freebsd-quarterly",
-      "generated": "2026-02-06T00:10:42Z",
+      "generated": "2026-02-11T08:40:50Z",
       "packages": {
         "freebsd": [
           {
@@ -3297,12 +3321,10 @@
           },
           {
             "name": "traefik",
-            "version": "3.6.6_1"
+            "version": "3.6.6_2"
           }
         ],
         "dotnet": [],
-        "python": [],
-        "node": [],
         "go": [
           {
             "name": "cloud.google.com/go/auth",
@@ -4694,16 +4716,26 @@
           },
           {
             "name": "stdlib",
-            "version": "v1.24.12"
+            "version": "v1.24.13"
           }
-        ]
+        ],
+        "java": [],
+        "node": [],
+        "php": [],
+        "python": [],
+        "ruby": [],
+        "rust": []
       },
       "summary": {
         "freebsd": 38,
         "dotnet": 0,
-        "python": 0,
-        "node": 0,
         "go": 348,
+        "java": 0,
+        "node": 0,
+        "php": 0,
+        "python": 0,
+        "ruby": 0,
+        "rust": 0,
         "total": 386
       }
     }
