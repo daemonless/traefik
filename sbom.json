@@ -1,12 +1,12 @@
 {
   "image": "traefik",
-  "generated": "2026-02-14T14:48:33Z",
+  "generated": "2026-02-16T09:06:17Z",
   "tags": {
     "latest": {
       "arch": "amd64",
       "app_version": "v3.6.8",
       "source": "upstream",
-      "generated": "2026-02-14T14:48:17Z",
+      "generated": "2026-02-16T09:06:03Z",
       "packages": {
         "freebsd": [
           {
@@ -1583,9 +1583,9 @@
     },
     "pkg-latest": {
       "arch": "amd64",
-      "app_version": "3.6.7_1",
+      "app_version": "3.6.8",
       "source": "pkg",
-      "generated": "2026-02-14T14:45:30Z",
+      "generated": "2026-02-16T09:03:54Z",
       "packages": {
         "freebsd": [
           {
@@ -1738,7 +1738,7 @@
           },
           {
             "name": "traefik",
-            "version": "3.6.7_1"
+            "version": "3.6.8"
           }
         ],
         "dotnet": [],
@@ -2665,7 +2665,7 @@
           },
           {
             "name": "github.com/quic-go/quic-go",
-            "version": "v0.58.0"
+            "version": "v0.59.0"
           },
           {
             "name": "github.com/redis/go-redis/v9",
@@ -2989,11 +2989,11 @@
           },
           {
             "name": "golang.org/x/crypto",
-            "version": "v0.46.0"
+            "version": "v0.47.0"
           },
           {
             "name": "golang.org/x/exp",
-            "version": "v0.0.0-20241210194714-1829a127f884"
+            "version": "v0.0.0-20250408133849-7e4ce0ab07d0"
           },
           {
             "name": "golang.org/x/mod",
@@ -3001,7 +3001,7 @@
           },
           {
             "name": "golang.org/x/net",
-            "version": "v0.48.0"
+            "version": "v0.49.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -3013,15 +3013,15 @@
           },
           {
             "name": "golang.org/x/sys",
-            "version": "v0.39.0"
+            "version": "v0.40.0"
           },
           {
             "name": "golang.org/x/term",
-            "version": "v0.38.0"
+            "version": "v0.39.0"
           },
           {
             "name": "golang.org/x/text",
-            "version": "v0.32.0"
+            "version": "v0.33.0"
           },
           {
             "name": "golang.org/x/time",
@@ -3166,9 +3166,9 @@
     },
     "pkg": {
       "arch": "amd64",
-      "app_version": "3.6.7",
+      "app_version": "3.6.8",
       "source": "pkg",
-      "generated": "2026-02-14T14:40:14Z",
+      "generated": "2026-02-16T09:03:12Z",
       "packages": {
         "freebsd": [
           {
@@ -3321,7 +3321,7 @@
           },
           {
             "name": "traefik",
-            "version": "3.6.7"
+            "version": "3.6.8"
           }
         ],
         "dotnet": [],
@@ -3332,7 +3332,7 @@
           },
           {
             "name": "stdlib",
-            "version": "v1.24.13"
+            "version": "v1.25.7"
           },
           {
             "name": "cloud.google.com/go/auth",
@@ -4248,7 +4248,7 @@
           },
           {
             "name": "github.com/quic-go/quic-go",
-            "version": "v0.58.0"
+            "version": "v0.59.0"
           },
           {
             "name": "github.com/redis/go-redis/v9",
@@ -4572,11 +4572,11 @@
           },
           {
             "name": "golang.org/x/crypto",
-            "version": "v0.46.0"
+            "version": "v0.47.0"
           },
           {
             "name": "golang.org/x/exp",
-            "version": "v0.0.0-20241210194714-1829a127f884"
+            "version": "v0.0.0-20250408133849-7e4ce0ab07d0"
           },
           {
             "name": "golang.org/x/mod",
@@ -4584,7 +4584,7 @@
           },
           {
             "name": "golang.org/x/net",
-            "version": "v0.48.0"
+            "version": "v0.49.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -4596,15 +4596,15 @@
           },
           {
             "name": "golang.org/x/sys",
-            "version": "v0.39.0"
+            "version": "v0.40.0"
           },
           {
             "name": "golang.org/x/term",
-            "version": "v0.38.0"
+            "version": "v0.39.0"
           },
           {
             "name": "golang.org/x/text",
-            "version": "v0.32.0"
+            "version": "v0.33.0"
           },
           {
             "name": "golang.org/x/time",
