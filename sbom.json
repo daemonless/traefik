@@ -1,12 +1,12 @@
 {
   "image": "traefik",
-  "generated": "2026-02-16T09:06:17Z",
+  "generated": "2026-02-23T18:08:17Z",
   "tags": {
     "latest": {
       "arch": "amd64",
-      "app_version": "v3.6.8",
+      "app_version": "v3.6.9",
       "source": "upstream",
-      "generated": "2026-02-16T09:06:03Z",
+      "generated": "2026-02-23T18:05:25Z",
       "packages": {
         "freebsd": [
           {
@@ -162,7 +162,7 @@
         "go": [
           {
             "name": "github.com/traefik/traefik/v3",
-            "version": "v3.6.8"
+            "version": "v3.6.9"
           },
           {
             "name": "stdlib",
@@ -170,7 +170,7 @@
           },
           {
             "name": "cloud.google.com/go/auth",
-            "version": "v0.18.0"
+            "version": "v0.18.1"
           },
           {
             "name": "cloud.google.com/go/auth/oauth2adapt",
@@ -190,7 +190,7 @@
           },
           {
             "name": "github.com/Azure/azure-sdk-for-go/sdk/azcore",
-            "version": "v1.20.0"
+            "version": "v1.21.0"
           },
           {
             "name": "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
@@ -282,7 +282,7 @@
           },
           {
             "name": "github.com/alibabacloud-go/darabonba-openapi/v2",
-            "version": "v2.1.13"
+            "version": "v2.1.15"
           },
           {
             "name": "github.com/alibabacloud-go/debug",
@@ -310,27 +310,27 @@
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2",
-            "version": "v1.41.0"
+            "version": "v1.41.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/config",
-            "version": "v1.32.6"
+            "version": "v1.32.8"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/credentials",
-            "version": "v1.19.6"
+            "version": "v1.19.8"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
-            "version": "v1.18.16"
+            "version": "v1.18.17"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/internal/configsources",
-            "version": "v1.4.16"
+            "version": "v1.4.17"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
-            "version": "v2.7.16"
+            "version": "v2.7.17"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/internal/ini",
@@ -350,19 +350,19 @@
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
-            "version": "v1.13.16"
+            "version": "v1.13.17"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/lightsail",
-            "version": "v1.50.10"
+            "version": "v1.50.11"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/route53",
-            "version": "v1.62.0"
+            "version": "v1.62.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/signin",
-            "version": "v1.0.4"
+            "version": "v1.0.5"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/ssm",
@@ -370,15 +370,15 @@
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/sso",
-            "version": "v1.30.8"
+            "version": "v1.30.9"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/ssooidc",
-            "version": "v1.35.12"
+            "version": "v1.35.14"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/sts",
-            "version": "v1.41.5"
+            "version": "v1.41.6"
           },
           {
             "name": "github.com/aws/smithy-go",
@@ -390,7 +390,7 @@
           },
           {
             "name": "github.com/baidubce/bce-sdk-go",
-            "version": "v0.9.256"
+            "version": "v0.9.260"
           },
           {
             "name": "github.com/benbjohnson/clock",
@@ -542,7 +542,7 @@
           },
           {
             "name": "github.com/go-acme/esa-20240910/v2",
-            "version": "v2.44.0"
+            "version": "v2.48.0"
           },
           {
             "name": "github.com/go-acme/jdcloud-sdk-go",
@@ -550,15 +550,15 @@
           },
           {
             "name": "github.com/go-acme/lego/v4",
-            "version": "v4.31.0"
+            "version": "v4.32.0"
           },
           {
             "name": "github.com/go-acme/tencentclouddnspod",
-            "version": "v1.1.25"
+            "version": "v1.3.24"
           },
           {
             "name": "github.com/go-acme/tencentedgdeone",
-            "version": "v1.1.48"
+            "version": "v1.3.38"
           },
           {
             "name": "github.com/go-errors/errors",
@@ -622,7 +622,7 @@
           },
           {
             "name": "github.com/go-viper/mapstructure/v2",
-            "version": "v2.4.0"
+            "version": "v2.5.0"
           },
           {
             "name": "github.com/go-zookeeper/zk",
@@ -682,11 +682,11 @@
           },
           {
             "name": "github.com/googleapis/enterprise-certificate-proxy",
-            "version": "v0.3.7"
+            "version": "v0.3.11"
           },
           {
             "name": "github.com/googleapis/gax-go/v2",
-            "version": "v2.16.0"
+            "version": "v2.17.0"
           },
           {
             "name": "github.com/gophercloud/gophercloud",
@@ -778,7 +778,7 @@
           },
           {
             "name": "github.com/huaweicloud/huaweicloud-sdk-go-v3",
-            "version": "v0.1.182"
+            "version": "v0.1.187"
           },
           {
             "name": "github.com/iij/doapi",
@@ -866,7 +866,7 @@
           },
           {
             "name": "github.com/linode/linodego",
-            "version": "v1.64.0"
+            "version": "v1.65.0"
           },
           {
             "name": "github.com/liquidweb/liquidweb-cli",
@@ -906,7 +906,7 @@
           },
           {
             "name": "github.com/miekg/dns",
-            "version": "v1.1.69"
+            "version": "v1.1.72"
           },
           {
             "name": "github.com/mimuret/golang-iij-dpf",
@@ -958,7 +958,7 @@
           },
           {
             "name": "github.com/nrdcg/auroradns",
-            "version": "v1.1.0"
+            "version": "v1.2.0"
           },
           {
             "name": "github.com/nrdcg/bunny-go",
@@ -998,11 +998,11 @@
           },
           {
             "name": "github.com/nrdcg/oci-go-sdk/common/v1065",
-            "version": "v1065.105.2"
+            "version": "v1065.108.2"
           },
           {
             "name": "github.com/nrdcg/oci-go-sdk/dns/v1065",
-            "version": "v1065.105.2"
+            "version": "v1065.108.2"
           },
           {
             "name": "github.com/nrdcg/porkbun",
@@ -1190,7 +1190,7 @@
           },
           {
             "name": "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common",
-            "version": "v1.3.28"
+            "version": "v1.3.48"
           },
           {
             "name": "github.com/tetratelabs/wazero",
@@ -1242,7 +1242,7 @@
           },
           {
             "name": "github.com/volcengine/volc-sdk-golang",
-            "version": "v1.0.233"
+            "version": "v1.0.237"
           },
           {
             "name": "github.com/vulcand/oxy/v2",
@@ -1254,7 +1254,7 @@
           },
           {
             "name": "github.com/vultr/govultr/v3",
-            "version": "v3.26.1"
+            "version": "v3.27.0"
           },
           {
             "name": "github.com/x448/float16",
@@ -1262,15 +1262,15 @@
           },
           {
             "name": "github.com/yandex-cloud/go-genproto",
-            "version": "v0.43.0"
+            "version": "v0.54.0"
           },
           {
             "name": "github.com/yandex-cloud/go-sdk/services/dns",
-            "version": "v0.0.25"
+            "version": "v0.0.36"
           },
           {
             "name": "github.com/yandex-cloud/go-sdk/v2",
-            "version": "v2.37.0"
+            "version": "v2.56.0"
           },
           {
             "name": "github.com/youmark/pkcs8",
@@ -1326,7 +1326,7 @@
           },
           {
             "name": "go.opentelemetry.io/otel",
-            "version": "v1.38.0"
+            "version": "v1.39.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploggrpc",
@@ -1362,11 +1362,11 @@
           },
           {
             "name": "go.opentelemetry.io/otel/metric",
-            "version": "v1.38.0"
+            "version": "v1.39.0"
           },
           {
             "name": "go.opentelemetry.io/otel/sdk",
-            "version": "v1.38.0"
+            "version": "v1.39.0"
           },
           {
             "name": "go.opentelemetry.io/otel/sdk/log",
@@ -1374,11 +1374,11 @@
           },
           {
             "name": "go.opentelemetry.io/otel/sdk/metric",
-            "version": "v1.38.0"
+            "version": "v1.39.0"
           },
           {
             "name": "go.opentelemetry.io/otel/trace",
-            "version": "v1.38.0"
+            "version": "v1.39.0"
           },
           {
             "name": "go.opentelemetry.io/proto/otlp",
@@ -1406,7 +1406,7 @@
           },
           {
             "name": "golang.org/x/crypto",
-            "version": "v0.47.0"
+            "version": "v0.48.0"
           },
           {
             "name": "golang.org/x/exp",
@@ -1414,15 +1414,15 @@
           },
           {
             "name": "golang.org/x/mod",
-            "version": "v0.31.0"
+            "version": "v0.32.0"
           },
           {
             "name": "golang.org/x/net",
-            "version": "v0.49.0"
+            "version": "v0.50.0"
           },
           {
             "name": "golang.org/x/oauth2",
-            "version": "v0.34.0"
+            "version": "v0.35.0"
           },
           {
             "name": "golang.org/x/sync",
@@ -1430,15 +1430,15 @@
           },
           {
             "name": "golang.org/x/sys",
-            "version": "v0.40.0"
+            "version": "v0.41.0"
           },
           {
             "name": "golang.org/x/term",
-            "version": "v0.39.0"
+            "version": "v0.40.0"
           },
           {
             "name": "golang.org/x/text",
-            "version": "v0.33.0"
+            "version": "v0.34.0"
           },
           {
             "name": "golang.org/x/time",
@@ -1450,15 +1450,15 @@
           },
           {
             "name": "google.golang.org/api",
-            "version": "v0.259.0"
+            "version": "v0.267.0"
           },
           {
             "name": "google.golang.org/genproto/googleapis/api",
-            "version": "v0.0.0-20251202230838-ff82c1b0f217"
+            "version": "v0.0.0-20260128011058-8636f8732409"
           },
           {
             "name": "google.golang.org/genproto/googleapis/rpc",
-            "version": "v0.0.0-20251222181119-0a764e51fe1b"
+            "version": "v0.0.0-20260203192932-546029d2fa20"
           },
           {
             "name": "google.golang.org/grpc",
@@ -1478,7 +1478,7 @@
           },
           {
             "name": "gopkg.in/ini.v1",
-            "version": "v1.67.0"
+            "version": "v1.67.1"
           },
           {
             "name": "gopkg.in/natefinch/lumberjack.v2",
@@ -1486,7 +1486,7 @@
           },
           {
             "name": "gopkg.in/ns1/ns1-go.v2",
-            "version": "v2.16.0"
+            "version": "v2.17.2"
           },
           {
             "name": "gopkg.in/yaml.v2",
@@ -1585,7 +1585,7 @@
       "arch": "amd64",
       "app_version": "3.6.8",
       "source": "pkg",
-      "generated": "2026-02-16T09:03:54Z",
+      "generated": "2026-02-23T18:02:56Z",
       "packages": {
         "freebsd": [
           {
@@ -3168,7 +3168,7 @@
       "arch": "amd64",
       "app_version": "3.6.8",
       "source": "pkg",
-      "generated": "2026-02-16T09:03:12Z",
+      "generated": "2026-02-23T18:08:05Z",
       "packages": {
         "freebsd": [
           {
