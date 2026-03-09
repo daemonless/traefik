@@ -1,12 +1,12 @@
 {
   "image": "traefik",
-  "generated": "2026-03-07T09:01:11Z",
+  "generated": "2026-03-09T08:02:54Z",
   "tags": {
     "latest": {
       "arch": "amd64",
       "app_version": "v3.6.10",
       "source": "upstream",
-      "generated": "2026-03-07T09:00:56Z",
+      "generated": "2026-03-09T08:02:39Z",
       "packages": {
         "freebsd": [
           {
@@ -1585,7 +1585,7 @@
       "arch": "amd64",
       "app_version": "3.6.9_1",
       "source": "pkg",
-      "generated": "2026-03-07T08:59:18Z",
+      "generated": "2026-03-09T08:00:10Z",
       "packages": {
         "freebsd": [
           {
@@ -3166,9 +3166,9 @@
     },
     "pkg": {
       "arch": "amd64",
-      "app_version": "3.6.9",
+      "app_version": "3.6.9_1",
       "source": "pkg",
-      "generated": "2026-03-07T09:00:23Z",
+      "generated": "2026-03-09T08:01:07Z",
       "packages": {
         "freebsd": [
           {
@@ -3321,7 +3321,7 @@
           },
           {
             "name": "traefik",
-            "version": "3.6.9"
+            "version": "3.6.9_1"
           }
         ],
         "dotnet": [],
@@ -3332,7 +3332,7 @@
           },
           {
             "name": "stdlib",
-            "version": "v1.25.7"
+            "version": "v1.25.8"
           },
           {
             "name": "cloud.google.com/go/auth",
