@@ -1,12 +1,12 @@
 {
   "image": "traefik",
-  "generated": "2026-03-09T08:02:54Z",
+  "generated": "2026-03-10T10:35:34Z",
   "tags": {
     "latest": {
       "arch": "amd64",
       "app_version": "v3.6.10",
       "source": "upstream",
-      "generated": "2026-03-09T08:02:39Z",
+      "generated": "2026-03-10T10:35:18Z",
       "packages": {
         "freebsd": [
           {
@@ -1585,7 +1585,7 @@
       "arch": "amd64",
       "app_version": "3.6.9_1",
       "source": "pkg",
-      "generated": "2026-03-09T08:00:10Z",
+      "generated": "2026-03-10T10:33:41Z",
       "packages": {
         "freebsd": [
           {
@@ -3166,9 +3166,9 @@
     },
     "pkg": {
       "arch": "amd64",
-      "app_version": "3.6.9_1",
+      "app_version": "3.6.10",
       "source": "pkg",
-      "generated": "2026-03-09T08:01:07Z",
+      "generated": "2026-03-10T10:34:46Z",
       "packages": {
         "freebsd": [
           {
@@ -3321,7 +3321,7 @@
           },
           {
             "name": "traefik",
-            "version": "3.6.9_1"
+            "version": "3.6.10"
           }
         ],
         "dotnet": [],
@@ -3468,7 +3468,7 @@
           },
           {
             "name": "github.com/andybalholm/brotli",
-            "version": "v1.1.1"
+            "version": "v1.2.0"
           },
           {
             "name": "github.com/armon/go-metrics",
@@ -3648,15 +3648,15 @@
           },
           {
             "name": "github.com/docker/cli",
-            "version": "v28.3.3+incompatible"
+            "version": "v29.2.1+incompatible"
           },
           {
             "name": "github.com/docker/docker",
-            "version": "v28.3.3+incompatible"
+            "version": "v28.5.2+incompatible"
           },
           {
             "name": "github.com/docker/go-connections",
-            "version": "v0.5.0"
+            "version": "v0.6.0"
           },
           {
             "name": "github.com/docker/go-units",
@@ -3872,7 +3872,7 @@
           },
           {
             "name": "github.com/grpc-ecosystem/grpc-gateway/v2",
-            "version": "v2.27.2"
+            "version": "v2.28.0"
           },
           {
             "name": "github.com/hashicorp/consul/api",
@@ -3988,7 +3988,7 @@
           },
           {
             "name": "github.com/klauspost/compress",
-            "version": "v1.18.0"
+            "version": "v1.18.2"
           },
           {
             "name": "github.com/kolo/xmlrpc",
@@ -4044,7 +4044,7 @@
           },
           {
             "name": "github.com/magiconair/properties",
-            "version": "v1.8.7"
+            "version": "v1.8.10"
           },
           {
             "name": "github.com/mailgun/multibuf",
@@ -4400,7 +4400,7 @@
           },
           {
             "name": "github.com/valyala/fasthttp",
-            "version": "v1.58.0"
+            "version": "v1.69.0"
           },
           {
             "name": "github.com/vinyldns/go-vinyldns",
@@ -4492,63 +4492,63 @@
           },
           {
             "name": "go.opentelemetry.io/otel",
-            "version": "v1.39.0"
+            "version": "v1.41.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploggrpc",
-            "version": "v0.14.0"
+            "version": "v0.17.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploghttp",
-            "version": "v0.14.0"
+            "version": "v0.17.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc",
-            "version": "v1.38.0"
+            "version": "v1.41.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp",
-            "version": "v1.38.0"
+            "version": "v1.41.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace",
-            "version": "v1.38.0"
+            "version": "v1.41.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc",
-            "version": "v1.38.0"
+            "version": "v1.41.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp",
-            "version": "v1.38.0"
+            "version": "v1.41.0"
           },
           {
             "name": "go.opentelemetry.io/otel/log",
-            "version": "v0.14.0"
+            "version": "v0.17.0"
           },
           {
             "name": "go.opentelemetry.io/otel/metric",
-            "version": "v1.39.0"
+            "version": "v1.41.0"
           },
           {
             "name": "go.opentelemetry.io/otel/sdk",
-            "version": "v1.39.0"
+            "version": "v1.41.0"
           },
           {
             "name": "go.opentelemetry.io/otel/sdk/log",
-            "version": "v0.14.0"
+            "version": "v0.17.0"
           },
           {
             "name": "go.opentelemetry.io/otel/sdk/metric",
-            "version": "v1.39.0"
+            "version": "v1.41.0"
           },
           {
             "name": "go.opentelemetry.io/otel/trace",
-            "version": "v1.39.0"
+            "version": "v1.41.0"
           },
           {
             "name": "go.opentelemetry.io/proto/otlp",
-            "version": "v1.7.1"
+            "version": "v1.9.0"
           },
           {
             "name": "go.uber.org/multierr",
@@ -4584,7 +4584,7 @@
           },
           {
             "name": "golang.org/x/net",
-            "version": "v0.50.0"
+            "version": "v0.51.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -4620,15 +4620,15 @@
           },
           {
             "name": "google.golang.org/genproto/googleapis/api",
-            "version": "v0.0.0-20260128011058-8636f8732409"
+            "version": "v0.0.0-20260209200024-4cfbd4190f57"
           },
           {
             "name": "google.golang.org/genproto/googleapis/rpc",
-            "version": "v0.0.0-20260203192932-546029d2fa20"
+            "version": "v0.0.0-20260209200024-4cfbd4190f57"
           },
           {
             "name": "google.golang.org/grpc",
-            "version": "v1.78.0"
+            "version": "v1.79.1"
           },
           {
             "name": "google.golang.org/protobuf",
