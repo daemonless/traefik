@@ -10,7 +10,8 @@ x-daemonless:
   freshports_url: "https://www.freshports.org/net/traefik/"
   user: "bsd"
   mlock: false
-  
+  appjail: true
+
   docs:
     env:
       PUID: "User ID for the application process"
