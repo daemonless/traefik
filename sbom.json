@@ -1,12 +1,12 @@
 {
   "image": "traefik",
-  "generated": "2026-03-22T09:38:35Z",
+  "generated": "2026-03-24T08:08:20Z",
   "tags": {
     "latest": {
       "arch": "amd64",
       "app_version": "v3.6.11",
       "source": "upstream",
-      "generated": "2026-03-22T09:38:23Z",
+      "generated": "2026-03-24T08:08:04Z",
       "packages": {
         "freebsd": [
           {
@@ -1585,7 +1585,7 @@
       "arch": "amd64",
       "app_version": "3.6.11",
       "source": "pkg",
-      "generated": "2026-03-22T09:36:15Z",
+      "generated": "2026-03-24T08:05:04Z",
       "packages": {
         "freebsd": [
           {
@@ -3166,9 +3166,9 @@
     },
     "pkg": {
       "arch": "amd64",
-      "app_version": "3.6.10",
+      "app_version": "3.6.11",
       "source": "pkg",
-      "generated": "2026-03-22T09:36:40Z",
+      "generated": "2026-03-24T08:05:38Z",
       "packages": {
         "freebsd": [
           {
@@ -3321,7 +3321,7 @@
           },
           {
             "name": "traefik",
-            "version": "3.6.10"
+            "version": "3.6.11"
           }
         ],
         "dotnet": [],
