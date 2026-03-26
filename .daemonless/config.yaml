@@ -1,6 +1,7 @@
 icon: ':material-server-network:'
 cit:
   port: 8080
+  ready: "Starting provider"
 
 build:
   variants:
