@@ -1,11 +1,11 @@
 {
-  "generated": "2026-04-22T14:59:35Z",
+  "generated": "2026-04-29T17:24:17Z",
   "image": "traefik",
   "tags": {
     "latest": {
-      "app_version": "v3.6.14",
+      "app_version": "v3.6.15",
       "arch": "amd64",
-      "generated": "2026-04-22T14:57:59Z",
+      "generated": "2026-04-29T17:22:50Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -79,11 +79,11 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
@@ -95,7 +95,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0"
+            "version": "15.0p6"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -177,7 +177,7 @@
           },
           {
             "name": "github.com/Azure/azure-sdk-for-go/sdk/azcore",
-            "version": "v1.21.0"
+            "version": "v1.21.1"
           },
           {
             "name": "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
@@ -185,7 +185,7 @@
           },
           {
             "name": "github.com/Azure/azure-sdk-for-go/sdk/internal",
-            "version": "v1.11.2"
+            "version": "v1.12.0"
           },
           {
             "name": "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/dns/armdns",
@@ -241,7 +241,7 @@
           },
           {
             "name": "github.com/HdrHistogram/hdrhistogram-go",
-            "version": "v1.1.2"
+            "version": "v1.2.0"
           },
           {
             "name": "github.com/Masterminds/goutils",
@@ -297,31 +297,31 @@
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2",
-            "version": "v1.41.5"
+            "version": "v1.41.6"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/config",
-            "version": "v1.32.14"
+            "version": "v1.32.16"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/credentials",
-            "version": "v1.19.14"
+            "version": "v1.19.15"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
-            "version": "v1.18.21"
+            "version": "v1.18.22"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/internal/configsources",
-            "version": "v1.4.21"
+            "version": "v1.4.22"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
-            "version": "v2.7.21"
+            "version": "v2.7.22"
           },
           {
-            "name": "github.com/aws/aws-sdk-go-v2/internal/ini",
-            "version": "v1.8.6"
+            "name": "github.com/aws/aws-sdk-go-v2/internal/v4a",
+            "version": "v1.4.23"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/ec2",
@@ -333,23 +333,23 @@
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
-            "version": "v1.13.7"
+            "version": "v1.13.8"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
-            "version": "v1.13.21"
+            "version": "v1.13.22"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/lightsail",
-            "version": "v1.53.0"
+            "version": "v1.53.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/route53",
-            "version": "v1.62.5"
+            "version": "v1.62.6"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/signin",
-            "version": "v1.0.9"
+            "version": "v1.0.10"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/ssm",
@@ -357,19 +357,19 @@
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/sso",
-            "version": "v1.30.15"
+            "version": "v1.30.16"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/ssooidc",
-            "version": "v1.35.19"
+            "version": "v1.35.20"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/sts",
-            "version": "v1.41.10"
+            "version": "v1.42.0"
           },
           {
             "name": "github.com/aws/smithy-go",
-            "version": "v1.24.2"
+            "version": "v1.25.0"
           },
           {
             "name": "github.com/aziontech/azionapi-go-sdk",
@@ -377,7 +377,7 @@
           },
           {
             "name": "github.com/baidubce/bce-sdk-go",
-            "version": "v0.9.264"
+            "version": "v0.9.265"
           },
           {
             "name": "github.com/benbjohnson/clock",
@@ -541,7 +541,7 @@
           },
           {
             "name": "github.com/go-acme/lego/v4",
-            "version": "v4.34.0"
+            "version": "v4.35.2"
           },
           {
             "name": "github.com/go-acme/tencentclouddnspod",
@@ -693,7 +693,7 @@
           },
           {
             "name": "github.com/gravitational/trace",
-            "version": "v1.1.16-0.20220114165159-14a9a7dd6aaf"
+            "version": "v1.5.1"
           },
           {
             "name": "github.com/grpc-ecosystem/grpc-gateway/v2",
@@ -824,10 +824,6 @@
             "version": "v0.4.0"
           },
           {
-            "name": "github.com/jonboulle/clockwork",
-            "version": "v0.5.0"
-          },
-          {
             "name": "github.com/josharian/intern",
             "version": "v1.0.0"
           },
@@ -885,7 +881,7 @@
           },
           {
             "name": "github.com/linode/linodego",
-            "version": "v1.67.0"
+            "version": "v1.68.0"
           },
           {
             "name": "github.com/liquidweb/liquidweb-cli",
@@ -901,7 +897,7 @@
           },
           {
             "name": "github.com/mailgun/multibuf",
-            "version": "v0.1.2"
+            "version": "v0.2.0"
           },
           {
             "name": "github.com/mailgun/timetools",
@@ -1017,11 +1013,11 @@
           },
           {
             "name": "github.com/nrdcg/oci-go-sdk/common/v1065",
-            "version": "v1065.111.0"
+            "version": "v1065.113.0"
           },
           {
             "name": "github.com/nrdcg/oci-go-sdk/dns/v1065",
-            "version": "v1065.111.0"
+            "version": "v1065.113.0"
           },
           {
             "name": "github.com/nrdcg/porkbun",
@@ -1209,7 +1205,7 @@
           },
           {
             "name": "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common",
-            "version": "v1.3.77"
+            "version": "v1.3.83"
           },
           {
             "name": "github.com/tetratelabs/wazero",
@@ -1229,7 +1225,7 @@
           },
           {
             "name": "github.com/traefik/traefik/v3",
-            "version": "v3.6.14"
+            "version": "v3.6.15"
           },
           {
             "name": "github.com/traefik/yaegi",
@@ -1241,7 +1237,7 @@
           },
           {
             "name": "github.com/ucloud/ucloud-sdk-go",
-            "version": "v0.22.61"
+            "version": "v0.22.63"
           },
           {
             "name": "github.com/ultradns/ultradns-go-sdk",
@@ -1269,19 +1265,19 @@
           },
           {
             "name": "github.com/volcengine/volc-sdk-golang",
-            "version": "v1.0.241"
+            "version": "v1.0.242"
           },
           {
             "name": "github.com/vulcand/oxy/v2",
-            "version": "v2.0.3"
+            "version": "v2.1.0"
           },
           {
             "name": "github.com/vulcand/predicate",
-            "version": "v1.2.0"
+            "version": "v1.3.0"
           },
           {
             "name": "github.com/vultr/govultr/v3",
-            "version": "v3.30.0"
+            "version": "v3.31.0"
           },
           {
             "name": "github.com/x448/float16",
@@ -1289,15 +1285,15 @@
           },
           {
             "name": "github.com/yandex-cloud/go-genproto",
-            "version": "v0.71.0"
+            "version": "v0.73.0"
           },
           {
             "name": "github.com/yandex-cloud/go-sdk/services/dns",
-            "version": "v0.0.52"
+            "version": "v0.0.54"
           },
           {
             "name": "github.com/yandex-cloud/go-sdk/v2",
-            "version": "v2.88.0"
+            "version": "v2.92.0"
           },
           {
             "name": "github.com/youmark/pkcs8",
@@ -1477,7 +1473,7 @@
           },
           {
             "name": "google.golang.org/api",
-            "version": "v0.275.0"
+            "version": "v0.276.0"
           },
           {
             "name": "google.golang.org/genproto/googleapis/api",
@@ -1603,20 +1599,20 @@
       "summary": {
         "dotnet": 0,
         "freebsd": 36,
-        "go": 359,
+        "go": 358,
         "java": 0,
         "node": 0,
         "php": 0,
         "python": 0,
         "ruby": 0,
         "rust": 0,
-        "total": 395
+        "total": 394
       }
     },
     "pkg": {
       "app_version": "3.6.13",
       "arch": "amd64",
-      "generated": "2026-04-22T14:58:09Z",
+      "generated": "2026-04-29T17:23:08Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1690,11 +1686,11 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
@@ -1706,7 +1702,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0"
+            "version": "15.0p6"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -3195,7 +3191,7 @@
     "pkg-latest": {
       "app_version": "3.6.13",
       "arch": "amd64",
-      "generated": "2026-04-22T14:58:22Z",
+      "generated": "2026-04-29T17:22:45Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3269,11 +3265,11 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
@@ -3285,7 +3281,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0"
+            "version": "15.0p6"
           },
           {
             "name": "FreeBSD-tcpd",
