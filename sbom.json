@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-16T12:54:49Z",
+  "generated": "2026-05-17T07:16:41Z",
   "image": "traefik",
   "tags": {
     "latest": {
       "app_version": "v3.7.1",
       "arch": "amd64",
-      "generated": "2026-05-16T12:53:27Z",
+      "generated": "2026-05-17T07:15:25Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1624,7 +1624,7 @@
     "pkg": {
       "app_version": "3.7.1",
       "arch": "amd64",
-      "generated": "2026-05-16T12:53:36Z",
+      "generated": "2026-05-17T07:14:58Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3245,9 +3245,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "3.6.16_1",
+      "app_version": "3.7.1",
       "arch": "amd64",
-      "generated": "2026-05-16T12:53:31Z",
+      "generated": "2026-05-17T07:15:31Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3397,10 +3397,14 @@
           },
           {
             "name": "traefik",
-            "version": "3.6.16_1"
+            "version": "3.7.1"
           }
         ],
         "go": [
+          {
+            "name": "./pkg/config/dynamic/ext",
+            "version": ""
+          },
           {
             "name": "cloud.google.com/go/auth",
             "version": "v0.20.0"
@@ -3495,7 +3499,7 @@
           },
           {
             "name": "github.com/Masterminds/semver/v3",
-            "version": "v3.3.1"
+            "version": "v3.4.0"
           },
           {
             "name": "github.com/Masterminds/sprig/v3",
@@ -4151,7 +4155,7 @@
           },
           {
             "name": "github.com/mailru/easyjson",
-            "version": "v0.9.0"
+            "version": "v0.9.1"
           },
           {
             "name": "github.com/mattn/go-colorable",
@@ -4327,7 +4331,7 @@
           },
           {
             "name": "github.com/prometheus/client_golang",
-            "version": "v1.23.0"
+            "version": "v1.23.2"
           },
           {
             "name": "github.com/prometheus/client_model",
@@ -4335,11 +4339,11 @@
           },
           {
             "name": "github.com/prometheus/common",
-            "version": "v0.65.0"
+            "version": "v0.67.4"
           },
           {
             "name": "github.com/prometheus/procfs",
-            "version": "v0.17.0"
+            "version": "v0.19.2"
           },
           {
             "name": "github.com/quic-go/qpack",
@@ -4427,7 +4431,7 @@
           },
           {
             "name": "github.com/spf13/pflag",
-            "version": "v1.0.7"
+            "version": "v1.0.10"
           },
           {
             "name": "github.com/spf13/viper",
@@ -4484,6 +4488,10 @@
           {
             "name": "github.com/transip/gotransip/v6",
             "version": "v6.26.2"
+          },
+          {
+            "name": "github.com/tufanbarisyildirim/gonginx",
+            "version": "v0.0.0-20250620092546-c3e307e36701"
           },
           {
             "name": "github.com/ucloud/ucloud-sdk-go",
@@ -4551,15 +4559,15 @@
           },
           {
             "name": "go.etcd.io/etcd/api/v3",
-            "version": "v3.6.4"
+            "version": "v3.6.5"
           },
           {
             "name": "go.etcd.io/etcd/client/pkg/v3",
-            "version": "v3.6.4"
+            "version": "v3.6.5"
           },
           {
             "name": "go.etcd.io/etcd/client/v3",
-            "version": "v3.6.4"
+            "version": "v3.6.5"
           },
           {
             "name": "go.mongodb.org/mongo-driver",
@@ -4667,11 +4675,11 @@
           },
           {
             "name": "go.uber.org/zap",
-            "version": "v1.27.0"
+            "version": "v1.27.1"
           },
           {
             "name": "go.yaml.in/yaml/v2",
-            "version": "v2.4.2"
+            "version": "v2.4.3"
           },
           {
             "name": "go.yaml.in/yaml/v3",
@@ -4719,7 +4727,7 @@
           },
           {
             "name": "gomodules.xyz/jsonpatch/v2",
-            "version": "v2.4.0"
+            "version": "v2.5.0"
           },
           {
             "name": "google.golang.org/api",
@@ -4771,19 +4779,19 @@
           },
           {
             "name": "k8s.io/api",
-            "version": "v0.34.3"
+            "version": "v0.35.2"
           },
           {
             "name": "k8s.io/apiextensions-apiserver",
-            "version": "v0.34.3"
+            "version": "v0.35.2"
           },
           {
             "name": "k8s.io/apimachinery",
-            "version": "v0.34.3"
+            "version": "v0.35.2"
           },
           {
             "name": "k8s.io/client-go",
-            "version": "v0.34.3"
+            "version": "v0.35.2"
           },
           {
             "name": "k8s.io/klog/v2",
@@ -4791,19 +4799,19 @@
           },
           {
             "name": "k8s.io/kube-openapi",
-            "version": "v0.0.0-20250814151709-d7b6acb124c3"
+            "version": "v0.0.0-20250910181357-589584f1c912"
           },
           {
             "name": "k8s.io/utils",
-            "version": "v0.0.0-20250820121507-0af2bda4dd1d"
+            "version": "v0.0.0-20260108192941-914a6e750570"
           },
           {
             "name": "knative.dev/networking",
-            "version": "v0.0.0-20241022012959-60e29ff520dc"
+            "version": "v0.0.0-20251217020127-11890a5dabea"
           },
           {
             "name": "knative.dev/pkg",
-            "version": "v0.0.0-20241021183759-9b9d535af5ad"
+            "version": "v0.0.0-20251216153728-9c8140b780d1"
           },
           {
             "name": "mvdan.cc/xurls/v2",
@@ -4815,7 +4823,7 @@
           },
           {
             "name": "sigs.k8s.io/gateway-api",
-            "version": "v1.4.0"
+            "version": "v1.5.1"
           },
           {
             "name": "sigs.k8s.io/json",
@@ -4827,7 +4835,7 @@
           },
           {
             "name": "sigs.k8s.io/structured-merge-diff/v6",
-            "version": "v6.3.1"
+            "version": "v6.3.2"
           },
           {
             "name": "sigs.k8s.io/yaml",
@@ -4849,14 +4857,14 @@
       "summary": {
         "dotnet": 0,
         "freebsd": 37,
-        "go": 359,
+        "go": 361,
         "java": 0,
         "node": 0,
         "php": 0,
         "python": 0,
         "ruby": 0,
         "rust": 0,
-        "total": 396
+        "total": 398
       }
     }
   }
