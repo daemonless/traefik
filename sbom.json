@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-28T23:14:50Z",
+  "generated": "2026-06-04T16:35:06Z",
   "image": "traefik",
   "tags": {
     "latest": {
-      "app_version": "v3.7.1",
+      "app_version": "v3.7.3",
       "arch": "amd64",
-      "generated": "2026-05-28T23:12:47Z",
+      "generated": "2026-06-04T16:32:48Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -513,7 +513,7 @@
           },
           {
             "name": "github.com/fsnotify/fsnotify",
-            "version": "v1.9.0"
+            "version": "v1.10.1"
           },
           {
             "name": "github.com/fxamacker/cbor/v2",
@@ -1233,7 +1233,7 @@
           },
           {
             "name": "github.com/traefik/traefik/v3",
-            "version": "v3.7.1"
+            "version": "v3.7.3"
           },
           {
             "name": "github.com/traefik/yaegi",
@@ -1441,7 +1441,7 @@
           },
           {
             "name": "golang.org/x/crypto",
-            "version": "v0.50.0"
+            "version": "v0.52.0"
           },
           {
             "name": "golang.org/x/exp",
@@ -1453,7 +1453,7 @@
           },
           {
             "name": "golang.org/x/net",
-            "version": "v0.53.0"
+            "version": "v0.55.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -1465,15 +1465,15 @@
           },
           {
             "name": "golang.org/x/sys",
-            "version": "v0.43.0"
+            "version": "v0.45.0"
           },
           {
             "name": "golang.org/x/term",
-            "version": "v0.42.0"
+            "version": "v0.43.0"
           },
           {
             "name": "golang.org/x/text",
-            "version": "v0.36.0"
+            "version": "v0.37.0"
           },
           {
             "name": "golang.org/x/time",
@@ -1597,7 +1597,7 @@
           },
           {
             "name": "stdlib",
-            "version": "v1.25.10"
+            "version": "v1.25.11"
           }
         ],
         "java": [],
@@ -1622,9 +1622,9 @@
       }
     },
     "pkg": {
-      "app_version": "3.7.1",
+      "app_version": "3.7.1_1",
       "arch": "amd64",
-      "generated": "2026-05-28T23:13:15Z",
+      "generated": "2026-06-04T16:31:34Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1774,7 +1774,7 @@
           },
           {
             "name": "traefik",
-            "version": "3.7.1"
+            "version": "3.7.1_1"
           }
         ],
         "go": [
@@ -3220,7 +3220,7 @@
           },
           {
             "name": "stdlib",
-            "version": "v1.25.10"
+            "version": "v1.25.11"
           }
         ],
         "java": [],
@@ -3245,9 +3245,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "3.7.1",
+      "app_version": "3.7.1_1",
       "arch": "amd64",
-      "generated": "2026-05-28T23:13:36Z",
+      "generated": "2026-06-04T16:33:52Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3397,7 +3397,7 @@
           },
           {
             "name": "traefik",
-            "version": "3.7.1"
+            "version": "3.7.1_1"
           }
         ],
         "go": [
@@ -4843,7 +4843,7 @@
           },
           {
             "name": "stdlib",
-            "version": "v1.25.10"
+            "version": "v1.25.11"
           }
         ],
         "java": [],
