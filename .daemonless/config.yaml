@@ -14,3 +14,7 @@ build:
       containerfile: Containerfile.pkg
       args:
         BASE_VERSION: "15-latest"
+    - tag: k8s
+      containerfile: Containerfile.k8s
+      puid: false
+      tag_desc: "**Passthrough**. Traefik as PID 1, no s6 — for Kubernetes/helm & CLI-arg config."
