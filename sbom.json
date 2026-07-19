@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-15T17:10:04Z",
+  "generated": "2026-07-19T21:33:43Z",
   "image": "traefik",
   "tags": {
     "k8s": {
       "app_version": "v3.7.8",
       "arch": "amd64",
-      "generated": "2026-07-15T17:08:49Z",
+      "generated": "2026-07-19T21:32:29Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -67,6 +67,10 @@
           },
           {
             "name": "FreeBSD-libucl",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-locales",
             "version": "15.1"
           },
           {
@@ -1566,7 +1570,7 @@
       "source": "k8s",
       "summary": {
         "dotnet": 0,
-        "freebsd": 35,
+        "freebsd": 36,
         "go": 351,
         "java": 0,
         "node": 0,
@@ -1574,13 +1578,13 @@
         "python": 0,
         "ruby": 0,
         "rust": 0,
-        "total": 386
+        "total": 387
       }
     },
     "latest": {
       "app_version": "v3.7.8",
       "arch": "amd64",
-      "generated": "2026-07-15T17:08:18Z",
+      "generated": "2026-07-19T21:31:20Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1642,6 +1646,10 @@
           },
           {
             "name": "FreeBSD-libucl",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-locales",
             "version": "15.1"
           },
           {
@@ -3153,7 +3161,7 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 38,
+        "freebsd": 39,
         "go": 351,
         "java": 0,
         "node": 0,
@@ -3161,13 +3169,13 @@
         "python": 0,
         "ruby": 0,
         "rust": 0,
-        "total": 389
+        "total": 390
       }
     },
     "pkg": {
       "app_version": "3.7.6_1",
       "arch": "amd64",
-      "generated": "2026-07-15T17:06:38Z",
+      "generated": "2026-07-19T21:32:22Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3229,6 +3237,10 @@
           },
           {
             "name": "FreeBSD-libucl",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-locales",
             "version": "15.1"
           },
           {
@@ -4744,7 +4756,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 39,
+        "freebsd": 40,
         "go": 351,
         "java": 0,
         "node": 0,
@@ -4752,13 +4764,13 @@
         "python": 0,
         "ruby": 0,
         "rust": 0,
-        "total": 390
+        "total": 391
       }
     },
     "pkg-latest": {
-      "app_version": "3.7.6_1",
+      "app_version": "3.7.8",
       "arch": "amd64",
-      "generated": "2026-07-15T17:06:20Z",
+      "generated": "2026-07-19T21:31:26Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4820,6 +4832,10 @@
           },
           {
             "name": "FreeBSD-libucl",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-locales",
             "version": "15.0"
           },
           {
@@ -4908,7 +4924,7 @@
           },
           {
             "name": "traefik",
-            "version": "3.7.6_1"
+            "version": "3.7.8"
           }
         ],
         "go": [
@@ -5410,7 +5426,7 @@
           },
           {
             "name": "github.com/grpc-ecosystem/grpc-gateway/v2",
-            "version": "v2.28.0"
+            "version": "v2.29.0"
           },
           {
             "name": "github.com/hashicorp/consul/api",
@@ -6070,59 +6086,59 @@
           },
           {
             "name": "go.opentelemetry.io/otel",
-            "version": "v1.43.0"
+            "version": "v1.44.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploggrpc",
-            "version": "v0.19.0"
+            "version": "v0.20.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploghttp",
-            "version": "v0.19.0"
+            "version": "v0.20.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc",
-            "version": "v1.43.0"
+            "version": "v1.44.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp",
-            "version": "v1.43.0"
+            "version": "v1.44.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace",
-            "version": "v1.43.0"
+            "version": "v1.44.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc",
-            "version": "v1.43.0"
+            "version": "v1.44.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp",
-            "version": "v1.43.0"
+            "version": "v1.44.0"
           },
           {
             "name": "go.opentelemetry.io/otel/log",
-            "version": "v0.19.0"
+            "version": "v0.20.0"
           },
           {
             "name": "go.opentelemetry.io/otel/metric",
-            "version": "v1.43.0"
+            "version": "v1.44.0"
           },
           {
             "name": "go.opentelemetry.io/otel/sdk",
-            "version": "v1.43.0"
+            "version": "v1.44.0"
           },
           {
             "name": "go.opentelemetry.io/otel/sdk/log",
-            "version": "v0.19.0"
+            "version": "v0.20.0"
           },
           {
             "name": "go.opentelemetry.io/otel/sdk/metric",
-            "version": "v1.43.0"
+            "version": "v1.44.0"
           },
           {
             "name": "go.opentelemetry.io/otel/trace",
-            "version": "v1.43.0"
+            "version": "v1.44.0"
           },
           {
             "name": "go.opentelemetry.io/proto/otlp",
@@ -6202,11 +6218,11 @@
           },
           {
             "name": "google.golang.org/genproto/googleapis/api",
-            "version": "v0.0.0-20260401024825-9d38bb4040a9"
+            "version": "v0.0.0-20260526163538-3dc84a4a5aaa"
           },
           {
             "name": "google.golang.org/genproto/googleapis/rpc",
-            "version": "v0.0.0-20260511170946-3700d4141b60"
+            "version": "v0.0.0-20260526163538-3dc84a4a5aaa"
           },
           {
             "name": "google.golang.org/grpc",
@@ -6310,11 +6326,11 @@
           },
           {
             "name": "software.sslmate.com/src/go-pkcs12",
-            "version": "v0.7.1"
+            "version": "v0.7.3"
           },
           {
             "name": "stdlib",
-            "version": "v1.25.12"
+            "version": "v1.26.5"
           }
         ],
         "java": [],
@@ -6327,7 +6343,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 37,
+        "freebsd": 38,
         "go": 351,
         "java": 0,
         "node": 0,
@@ -6335,7 +6351,7 @@
         "python": 0,
         "ruby": 0,
         "rust": 0,
-        "total": 388
+        "total": 389
       }
     }
   }
