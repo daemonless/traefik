@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-19T21:33:43Z",
+  "generated": "2026-07-20T07:37:04Z",
   "image": "traefik",
   "tags": {
     "k8s": {
       "app_version": "v3.7.8",
       "arch": "amd64",
-      "generated": "2026-07-19T21:32:29Z",
+      "generated": "2026-07-20T07:35:50Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1584,7 +1584,7 @@
     "latest": {
       "app_version": "v3.7.8",
       "arch": "amd64",
-      "generated": "2026-07-19T21:31:20Z",
+      "generated": "2026-07-20T07:33:20Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3173,9 +3173,9 @@
       }
     },
     "pkg": {
-      "app_version": "3.7.6_1",
+      "app_version": "3.7.8",
       "arch": "amd64",
-      "generated": "2026-07-19T21:32:22Z",
+      "generated": "2026-07-20T07:35:14Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3337,7 +3337,7 @@
           },
           {
             "name": "traefik",
-            "version": "3.7.6_1"
+            "version": "3.7.8"
           }
         ],
         "go": [
@@ -3839,7 +3839,7 @@
           },
           {
             "name": "github.com/grpc-ecosystem/grpc-gateway/v2",
-            "version": "v2.28.0"
+            "version": "v2.29.0"
           },
           {
             "name": "github.com/hashicorp/consul/api",
@@ -4499,59 +4499,59 @@
           },
           {
             "name": "go.opentelemetry.io/otel",
-            "version": "v1.43.0"
+            "version": "v1.44.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploggrpc",
-            "version": "v0.19.0"
+            "version": "v0.20.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploghttp",
-            "version": "v0.19.0"
+            "version": "v0.20.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc",
-            "version": "v1.43.0"
+            "version": "v1.44.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp",
-            "version": "v1.43.0"
+            "version": "v1.44.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace",
-            "version": "v1.43.0"
+            "version": "v1.44.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc",
-            "version": "v1.43.0"
+            "version": "v1.44.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp",
-            "version": "v1.43.0"
+            "version": "v1.44.0"
           },
           {
             "name": "go.opentelemetry.io/otel/log",
-            "version": "v0.19.0"
+            "version": "v0.20.0"
           },
           {
             "name": "go.opentelemetry.io/otel/metric",
-            "version": "v1.43.0"
+            "version": "v1.44.0"
           },
           {
             "name": "go.opentelemetry.io/otel/sdk",
-            "version": "v1.43.0"
+            "version": "v1.44.0"
           },
           {
             "name": "go.opentelemetry.io/otel/sdk/log",
-            "version": "v0.19.0"
+            "version": "v0.20.0"
           },
           {
             "name": "go.opentelemetry.io/otel/sdk/metric",
-            "version": "v1.43.0"
+            "version": "v1.44.0"
           },
           {
             "name": "go.opentelemetry.io/otel/trace",
-            "version": "v1.43.0"
+            "version": "v1.44.0"
           },
           {
             "name": "go.opentelemetry.io/proto/otlp",
@@ -4631,11 +4631,11 @@
           },
           {
             "name": "google.golang.org/genproto/googleapis/api",
-            "version": "v0.0.0-20260401024825-9d38bb4040a9"
+            "version": "v0.0.0-20260526163538-3dc84a4a5aaa"
           },
           {
             "name": "google.golang.org/genproto/googleapis/rpc",
-            "version": "v0.0.0-20260511170946-3700d4141b60"
+            "version": "v0.0.0-20260526163538-3dc84a4a5aaa"
           },
           {
             "name": "google.golang.org/grpc",
@@ -4739,11 +4739,11 @@
           },
           {
             "name": "software.sslmate.com/src/go-pkcs12",
-            "version": "v0.7.1"
+            "version": "v0.7.3"
           },
           {
             "name": "stdlib",
-            "version": "v1.25.12"
+            "version": "v1.26.5"
           }
         ],
         "java": [],
@@ -4770,7 +4770,7 @@
     "pkg-latest": {
       "app_version": "3.7.8",
       "arch": "amd64",
-      "generated": "2026-07-19T21:31:26Z",
+      "generated": "2026-07-20T07:34:13Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
