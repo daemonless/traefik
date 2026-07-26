@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-24T15:13:07Z",
+  "generated": "2026-07-26T20:31:24Z",
   "image": "traefik",
   "tags": {
     "k8s": {
       "app_version": "v3.7.9",
       "arch": "amd64",
-      "generated": "2026-07-24T15:11:55Z",
+      "generated": "2026-07-26T20:30:11Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1584,7 +1584,7 @@
     "latest": {
       "app_version": "v3.7.9",
       "arch": "amd64",
-      "generated": "2026-07-24T15:11:01Z",
+      "generated": "2026-07-26T20:28:53Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3175,7 +3175,7 @@
     "pkg": {
       "app_version": "3.7.8",
       "arch": "amd64",
-      "generated": "2026-07-24T15:09:59Z",
+      "generated": "2026-07-26T20:28:58Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4768,9 +4768,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "3.7.8",
+      "app_version": "3.7.9",
       "arch": "amd64",
-      "generated": "2026-07-24T15:11:20Z",
+      "generated": "2026-07-26T20:29:48Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4912,7 +4912,7 @@
           },
           {
             "name": "pkg",
-            "version": "2.8.0_1"
+            "version": "2.8.1"
           },
           {
             "name": "s6",
@@ -4924,7 +4924,7 @@
           },
           {
             "name": "traefik",
-            "version": "3.7.8"
+            "version": "3.7.9"
           }
         ],
         "go": [
@@ -6226,7 +6226,7 @@
           },
           {
             "name": "google.golang.org/grpc",
-            "version": "v1.81.1"
+            "version": "v1.82.1"
           },
           {
             "name": "google.golang.org/protobuf",
