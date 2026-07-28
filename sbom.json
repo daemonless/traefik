@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-26T20:31:24Z",
+  "generated": "2026-07-28T07:15:14Z",
   "image": "traefik",
   "tags": {
     "k8s": {
       "app_version": "v3.7.9",
       "arch": "amd64",
-      "generated": "2026-07-26T20:30:11Z",
+      "generated": "2026-07-28T07:08:26Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1584,7 +1584,7 @@
     "latest": {
       "app_version": "v3.7.9",
       "arch": "amd64",
-      "generated": "2026-07-26T20:28:53Z",
+      "generated": "2026-07-28T07:02:15Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3173,9 +3173,9 @@
       }
     },
     "pkg": {
-      "app_version": "3.7.8",
+      "app_version": "3.7.9",
       "arch": "amd64",
-      "generated": "2026-07-26T20:28:58Z",
+      "generated": "2026-07-28T07:14:01Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3337,7 +3337,7 @@
           },
           {
             "name": "traefik",
-            "version": "3.7.8"
+            "version": "3.7.9"
           }
         ],
         "go": [
@@ -4639,7 +4639,7 @@
           },
           {
             "name": "google.golang.org/grpc",
-            "version": "v1.81.1"
+            "version": "v1.82.1"
           },
           {
             "name": "google.golang.org/protobuf",
@@ -4770,7 +4770,7 @@
     "pkg-latest": {
       "app_version": "3.7.9",
       "arch": "amd64",
-      "generated": "2026-07-26T20:29:48Z",
+      "generated": "2026-07-28T07:03:18Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
