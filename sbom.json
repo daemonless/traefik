@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-07T08:29:28Z",
+  "generated": "2026-08-15T08:12:52Z",
   "image": "traefik",
   "tags": {
     "k8s": {
       "app_version": "v3.7.10",
       "arch": "amd64",
-      "generated": "2026-08-07T08:27:39Z",
+      "generated": "2026-08-15T08:12:25Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2088,7 +2088,7 @@
     "latest": {
       "app_version": "v3.7.10",
       "arch": "amd64",
-      "generated": "2026-08-07T08:26:06Z",
+      "generated": "2026-08-15T08:10:48Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4192,7 +4192,7 @@
     "pkg": {
       "app_version": "3.7.10",
       "arch": "amd64",
-      "generated": "2026-08-07T08:26:29Z",
+      "generated": "2026-08-15T08:10:29Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -6303,7 +6303,7 @@
     "pkg-latest": {
       "app_version": "3.7.10",
       "arch": "amd64",
-      "generated": "2026-08-07T08:25:52Z",
+      "generated": "2026-08-15T08:10:37Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -6564,7 +6564,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.1_1"
+            "version": "2.8.4"
           },
           {
             "licenses": [

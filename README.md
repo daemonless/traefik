@@ -20,9 +20,9 @@ Modern HTTP reverse proxy and load balancer on FreeBSD.
 ## Version Tags
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
-| `latest` | **Upstream Binary**. Built from official release. | Most users. Matches Linux Docker behavior. |
+| `latest` | **Upstream Binary**. Built from official release. | Most users — recommended. |
 | `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
-| `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
+| `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
 | `k8s` | **Passthrough**. Traefik as PID 1, no s6 — for Kubernetes/helm & CLI-arg config. | Alternative build. |
 
 ## Prerequisites
@@ -75,9 +75,9 @@ services:
     name: traefik
     options:
       - container: 'boot args:--pull'
-      - expose: '80:80 proto:tcp' \
-      - expose: '443:443 proto:tcp' \
-      - expose: '8080:8080 proto:tcp' \
+      - expose: '80:80 proto:tcp'
+      - expose: '443:443 proto:tcp'
+      - expose: '8080:8080 proto:tcp'
     oci:
       user: root
       environment:
