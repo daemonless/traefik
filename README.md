@@ -47,8 +47,11 @@ services:
       - "80:80"
       - "443:443"
       - "8080:8080"
-    restart: unless-stopped
+    # always (not unless-stopped) so FreeBSD's podman rc.d auto-starts it at boot
+    restart: always
 ```
+
+Save as `compose.yaml`, then run `podman-compose up -d`.
 
 ### AppJail Director
 **.env**:
@@ -101,6 +104,9 @@ ARG tag=latest
 OPTION overwrite=force
 OPTION from=ghcr.io/daemonless/traefik:${tag}
 ```
+
+Save the files above, then run `appjail-director up`.
+
 **Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
 
 ### Podman CLI
@@ -116,6 +122,8 @@ podman run -d --name traefik \
   -v /path/to/containers/traefik:/config \
   ghcr.io/daemonless/traefik:latest
 ```
+
+Save as `run.sh`, then run `sh run.sh`.
 
 ### AppJail
 
@@ -134,7 +142,38 @@ appjail oci run -Pd \
   -o fstab="/path/to/containers/traefik /config <pseudofs>" \
   ghcr.io/daemonless/traefik:latest traefik
 ```
+
+Save as `run.sh`, then run `sh run.sh`.
+
 **Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
+
+### Bastille
+
+> [!WARNING]
+> Bastille's OCI support is **experimental**. It requires `buildah`, shares the host network stack (`inherit`), and persists image-declared volumes under `--data-path`.
+
+```yaml
+services:
+  traefik:
+    image: "ghcr.io/daemonless/traefik:latest"
+    container_name: traefik
+    network_mode: host  # jail shares host networking
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+```
+
+Save as `podman-compose.yml`, then run `bastille up`. Or via CLI:
+
+```bash
+bastille create -O \
+  --env PUID=1000 \
+  --env PGID=1000 \
+  --env TZ=UTC \
+  --data-path /path/to/containers/traefik \
+  traefik ghcr.io/daemonless/traefik:latest inherit
+```
 
 ### Ansible
 
@@ -156,6 +195,8 @@ appjail oci run -Pd \
     volumes:
       - "/path/to/containers/traefik:/config"
 ```
+
+Save as `traefik-deploy.yaml`, then run `ansible-playbook traefik-deploy.yaml`.
 
 ## Parameters
 
