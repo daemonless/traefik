@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-27T14:49:44Z",
+  "generated": "2026-09-06T21:29:16Z",
   "image": "traefik",
   "tags": {
     "k8s": {
       "app_version": "v3.7.12",
       "arch": "amd64",
-      "generated": "2026-08-27T14:48:04Z",
+      "generated": "2026-09-06T21:28:47Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -147,7 +147,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -175,7 +175,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -238,7 +238,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.128"
           },
           {
             "licenses": [
@@ -2088,7 +2088,7 @@
     "latest": {
       "app_version": "v3.7.12",
       "arch": "amd64",
-      "generated": "2026-08-27T14:46:17Z",
+      "generated": "2026-09-06T21:26:23Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2230,7 +2230,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -2258,7 +2258,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -2321,7 +2321,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.128"
           },
           {
             "licenses": [
@@ -4192,7 +4192,7 @@
     "pkg": {
       "app_version": "3.7.11",
       "arch": "amd64",
-      "generated": "2026-08-27T14:46:36Z",
+      "generated": "2026-09-06T21:23:54Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4334,7 +4334,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -4362,7 +4362,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -4425,7 +4425,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.128"
           },
           {
             "licenses": [
@@ -6301,9 +6301,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "3.7.11",
+      "app_version": "3.7.11_1",
       "arch": "amd64",
-      "generated": "2026-08-27T14:46:49Z",
+      "generated": "2026-09-06T21:27:38Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -6445,7 +6445,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -6473,7 +6473,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -6536,7 +6536,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.128"
           },
           {
             "licenses": [
@@ -6585,7 +6585,7 @@
               "MIT"
             ],
             "name": "traefik",
-            "version": "3.7.11"
+            "version": "3.7.11_1"
           }
         ],
         "go": [
@@ -8387,7 +8387,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.7"
+            "version": "v1.26.8"
           }
         ],
         "java": [],
