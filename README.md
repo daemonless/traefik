@@ -150,31 +150,28 @@ Save as `run.sh`, then run `sh run.sh`.
 ### Bastille
 
 > [!WARNING]
-> Bastille's OCI support is **experimental**. It requires `buildah` and shares the host network stack (`inherit`). Mount volumes with `--volume HOST JAIL`; without it, image-declared volumes are stored under `${bastille_volumesdir}/${jail}`.
+> Bastille's OCI support is **experimental**. It requires `buildah`, shares the host network stack (`inherit`), and persists image-declared volumes under `--data-path`.
 
 ```yaml
 services:
   traefik:
-    name: traefik
     image: "ghcr.io/daemonless/traefik:latest"
-    network:
-      - mode: host
+    container_name: traefik
+    network_mode: host  # jail shares host networking
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=UTC
-    volumes:
-      - "/path/to/containers/traefik:/config"
 ```
 
-Save as `bastille-compose.yml`, then run `bastille up`. Or via CLI:
+Save as `podman-compose.yml`, then run `bastille up`. Or via CLI:
 
 ```bash
 bastille create -O \
   --env PUID=1000 \
   --env PGID=1000 \
   --env TZ=UTC \
-  --volume /path/to/containers/traefik /config \
+  --data-path /path/to/containers/traefik \
   traefik ghcr.io/daemonless/traefik:latest inherit
 ```
 
