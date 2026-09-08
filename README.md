@@ -23,7 +23,7 @@ Modern HTTP reverse proxy and load balancer on FreeBSD.
 | `latest` | **Upstream Binary**. Built from official release. | Most users — recommended. |
 | `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
 | `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
-| `k8s` | **Passthrough**. Traefik as PID 1, no s6 — for Kubernetes/helm & CLI-arg config. | Alternative build. |
+| `k8s` | Same as :latest (s6) but with DAEMONLESS_SUPERVISE=orchestrator baked in: a service exit terminates the container so the orchestrator (Kubernetes, etc.) restarts the pod. | Alternative build. |
 
 ## Prerequisites
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
@@ -150,28 +150,31 @@ Save as `run.sh`, then run `sh run.sh`.
 ### Bastille
 
 > [!WARNING]
-> Bastille's OCI support is **experimental**. It requires `buildah`, shares the host network stack (`inherit`), and persists image-declared volumes under `--data-path`.
+> Bastille's OCI support is **experimental**. It requires `buildah` and shares the host network stack (`inherit`). Mount volumes with `--volume HOST JAIL`; without it, image-declared volumes are stored under `${bastille_volumesdir}/${jail}`.
 
 ```yaml
 services:
   traefik:
+    name: traefik
     image: "ghcr.io/daemonless/traefik:latest"
-    container_name: traefik
-    network_mode: host  # jail shares host networking
+    network:
+      - mode: host
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=UTC
+    volumes:
+      - "/path/to/containers/traefik:/config"
 ```
 
-Save as `podman-compose.yml`, then run `bastille up`. Or via CLI:
+Save as `bastille-compose.yml`, then run `bastille up`. Or via CLI:
 
 ```bash
 bastille create -O \
   --env PUID=1000 \
   --env PGID=1000 \
   --env TZ=UTC \
-  --data-path /path/to/containers/traefik \
+  --volume /path/to/containers/traefik /config \
   traefik ghcr.io/daemonless/traefik:latest inherit
 ```
 

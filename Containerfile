@@ -15,6 +15,13 @@ ARG HEALTHCHECK_ENDPOINT="http://localhost:8080/ping"
 
 ENV HEALTHCHECK_URL="${HEALTHCHECK_ENDPOINT}"
 
+# Supervision mode. The :k8s variant builds with
+# --build-arg DAEMONLESS_SUPERVISE=orchestrator so a service exit terminates s6
+# and the container exits, letting the orchestrator restart the pod (see base
+# s6-finish-helper). Default "self" (:latest) keeps standalone self-healing.
+ARG DAEMONLESS_SUPERVISE="self"
+ENV DAEMONLESS_SUPERVISE="${DAEMONLESS_SUPERVISE}"
+
 # --- Metadata (Injected by Generator) ---
 LABEL org.opencontainers.image.title="Traefik" \
       org.opencontainers.image.description="Modern HTTP reverse proxy and load balancer on FreeBSD." \
