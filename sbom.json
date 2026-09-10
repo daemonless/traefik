@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-08T10:19:43Z",
+  "generated": "2026-09-10T16:45:59Z",
   "image": "traefik",
   "tags": {
     "k8s": {
-      "app_version": "v3.7.12",
+      "app_version": "v3.7.13",
       "arch": "amd64",
-      "generated": "2026-09-08T10:18:34Z",
+      "generated": "2026-09-10T16:41:41Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -238,7 +238,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.128"
+            "version": "3.129"
           },
           {
             "licenses": [
@@ -292,7 +292,7 @@
           {
             "name": "cloud.google.com/go/auth",
             "purl": "",
-            "version": "v0.20.0"
+            "version": "v0.23.2"
           },
           {
             "name": "cloud.google.com/go/auth/oauth2adapt",
@@ -312,12 +312,12 @@
           {
             "name": "github.com/Azure/azure-sdk-for-go/sdk/azcore",
             "purl": "",
-            "version": "v1.22.0"
+            "version": "v1.23.1"
           },
           {
             "name": "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
             "purl": "",
-            "version": "v1.14.0"
+            "version": "v1.14.1"
           },
           {
             "name": "github.com/Azure/azure-sdk-for-go/sdk/internal",
@@ -342,7 +342,7 @@
           {
             "name": "github.com/AzureAD/microsoft-authentication-library-for-go",
             "purl": "",
-            "version": "v1.7.2"
+            "version": "v1.8.0"
           },
           {
             "name": "github.com/BurntSushi/toml",
@@ -377,7 +377,7 @@
           {
             "name": "github.com/akamai/AkamaiOPEN-edgegrid-golang/v13",
             "purl": "",
-            "version": "v13.3.0"
+            "version": "v13.4.0"
           },
           {
             "name": "github.com/alibabacloud-go/alibabacloud-gateway-spi",
@@ -387,7 +387,7 @@
           {
             "name": "github.com/alibabacloud-go/darabonba-openapi/v2",
             "purl": "",
-            "version": "v2.2.3"
+            "version": "v2.2.4"
           },
           {
             "name": "github.com/alibabacloud-go/debug",
@@ -397,7 +397,7 @@
           {
             "name": "github.com/alibabacloud-go/tea",
             "purl": "",
-            "version": "v1.5.2"
+            "version": "v1.5.3"
           },
           {
             "name": "github.com/alibabacloud-go/tea-utils/v2",
@@ -422,37 +422,37 @@
           {
             "name": "github.com/aws/aws-sdk-go-v2",
             "purl": "",
-            "version": "v1.42.1"
+            "version": "v1.45.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/config",
             "purl": "",
-            "version": "v1.32.30"
+            "version": "v1.33.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/credentials",
             "purl": "",
-            "version": "v1.19.29"
+            "version": "v1.20.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
             "purl": "",
-            "version": "v1.18.30"
+            "version": "v1.19.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/internal/configsources",
             "purl": "",
-            "version": "v1.4.30"
+            "version": "v1.5.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
             "purl": "",
-            "version": "v2.7.30"
+            "version": "v2.8.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/internal/v4a",
             "purl": "",
-            "version": "v1.4.31"
+            "version": "v1.5.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/ec2",
@@ -467,27 +467,27 @@
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
             "purl": "",
-            "version": "v1.13.13"
+            "version": "v1.13.19"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
             "purl": "",
-            "version": "v1.13.30"
+            "version": "v1.14.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/lightsail",
             "purl": "",
-            "version": "v1.57.1"
+            "version": "v1.60.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/route53",
             "purl": "",
-            "version": "v1.64.1"
+            "version": "v1.67.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/signin",
             "purl": "",
-            "version": "v1.4.1"
+            "version": "v1.7.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/ssm",
@@ -497,32 +497,32 @@
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/sso",
             "purl": "",
-            "version": "v1.32.1"
+            "version": "v1.35.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/ssooidc",
             "purl": "",
-            "version": "v1.37.1"
+            "version": "v1.40.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/sts",
             "purl": "",
-            "version": "v1.44.1"
+            "version": "v1.47.1"
           },
           {
             "name": "github.com/aws/smithy-go",
             "purl": "",
-            "version": "v1.27.3"
+            "version": "v1.28.1"
           },
           {
             "name": "github.com/aziontech/azionapi-go-sdk",
             "purl": "",
-            "version": "v0.147.0"
+            "version": "v0.148.0"
           },
           {
             "name": "github.com/baidubce/bce-sdk-go",
             "purl": "",
-            "version": "v0.9.270"
+            "version": "v0.9.275"
           },
           {
             "name": "github.com/benbjohnson/clock",
@@ -627,12 +627,12 @@
           {
             "name": "github.com/dnsimple/dnsimple-go/v9",
             "purl": "",
-            "version": "v9.1.0"
+            "version": "v9.1.1"
           },
           {
             "name": "github.com/docker/cli",
             "purl": "",
-            "version": "v29.4.0+incompatible"
+            "version": "v29.7.2+incompatible"
           },
           {
             "name": "github.com/docker/go-connections",
@@ -657,12 +657,12 @@
           {
             "name": "github.com/exoscale/egoscale/v3",
             "purl": "",
-            "version": "v3.1.41"
+            "version": "v3.1.46"
           },
           {
             "name": "github.com/fatih/color",
             "purl": "",
-            "version": "v1.18.0"
+            "version": "v1.19.0"
           },
           {
             "name": "github.com/fatih/structs",
@@ -697,12 +697,12 @@
           {
             "name": "github.com/go-acme/alidns-20150109/v5",
             "purl": "",
-            "version": "v5.5.0"
+            "version": "v5.6.1"
           },
           {
             "name": "github.com/go-acme/esa-20240910/v3",
             "purl": "",
-            "version": "v3.4.0"
+            "version": "v3.13.0"
           },
           {
             "name": "github.com/go-acme/jdcloud-sdk-go",
@@ -712,17 +712,17 @@
           {
             "name": "github.com/go-acme/lego/v5",
             "purl": "",
-            "version": "v5.3.1"
+            "version": "v5.4.1"
           },
           {
             "name": "github.com/go-acme/tencentclouddnspod",
             "purl": "",
-            "version": "v1.3.24"
+            "version": "v1.3.131"
           },
           {
             "name": "github.com/go-acme/tencentedgdeone",
             "purl": "",
-            "version": "v1.3.38"
+            "version": "v1.3.170"
           },
           {
             "name": "github.com/go-errors/errors",
@@ -932,12 +932,12 @@
           {
             "name": "github.com/googleapis/enterprise-certificate-proxy",
             "purl": "",
-            "version": "v0.3.17"
+            "version": "v0.3.20"
           },
           {
             "name": "github.com/googleapis/gax-go/v2",
             "purl": "",
-            "version": "v2.22.0"
+            "version": "v2.24.0"
           },
           {
             "name": "github.com/gophercloud/gophercloud",
@@ -1052,7 +1052,7 @@
           {
             "name": "github.com/huaweicloud/huaweicloud-sdk-go-v3",
             "purl": "",
-            "version": "v0.1.205"
+            "version": "v0.1.213"
           },
           {
             "name": "github.com/imdario/mergo",
@@ -1077,7 +1077,7 @@
           {
             "name": "github.com/infobloxopen/infoblox-go-client/v2",
             "purl": "",
-            "version": "v2.11.0"
+            "version": "v2.12.0"
           },
           {
             "name": "github.com/jcmturner/aescts/v2",
@@ -1207,12 +1207,12 @@
           {
             "name": "github.com/mattn/go-isatty",
             "purl": "",
-            "version": "v0.0.22"
+            "version": "v0.0.24"
           },
           {
             "name": "github.com/miekg/dns",
             "purl": "",
-            "version": "v1.1.72"
+            "version": "v1.1.73"
           },
           {
             "name": "github.com/mimuret/golang-iij-dpf",
@@ -1332,12 +1332,12 @@
           {
             "name": "github.com/nrdcg/oci-go-sdk/common/v1065",
             "purl": "",
-            "version": "v1065.120.0"
+            "version": "v1065.124.0"
           },
           {
             "name": "github.com/nrdcg/oci-go-sdk/dns/v1065",
             "purl": "",
-            "version": "v1065.120.0"
+            "version": "v1065.124.0"
           },
           {
             "name": "github.com/nrdcg/porkbun",
@@ -1437,7 +1437,7 @@
           {
             "name": "github.com/quic-go/quic-go",
             "purl": "",
-            "version": "v0.61.0"
+            "version": "v0.62.0"
           },
           {
             "name": "github.com/redis/go-redis/v9",
@@ -1447,7 +1447,7 @@
           {
             "name": "github.com/regfish/regfish-dnsapi-go",
             "purl": "",
-            "version": "v0.1.1"
+            "version": "v0.2.0"
           },
           {
             "name": "github.com/rs/cors",
@@ -1460,29 +1460,9 @@
             "version": "v1.34.0"
           },
           {
-            "name": "github.com/sacloud/api-client-go",
-            "purl": "",
-            "version": "v0.3.5"
-          },
-          {
-            "name": "github.com/sacloud/go-http",
-            "purl": "",
-            "version": "v0.1.9"
-          },
-          {
-            "name": "github.com/sacloud/iaas-api-go",
-            "purl": "",
-            "version": "v1.29.2"
-          },
-          {
-            "name": "github.com/sacloud/packages-go",
+            "name": "github.com/sacloud/sacloud-sdk-go",
             "purl": "",
             "version": "v0.1.0"
-          },
-          {
-            "name": "github.com/sacloud/saclient-go",
-            "purl": "",
-            "version": "v0.4.0"
           },
           {
             "name": "github.com/sagikazarmark/slog-shim",
@@ -1507,7 +1487,7 @@
           {
             "name": "github.com/scaleway/scaleway-sdk-go",
             "purl": "",
-            "version": "v1.0.0-beta.36"
+            "version": "v1.0.0-beta.37"
           },
           {
             "name": "github.com/selectel/domains-go",
@@ -1567,7 +1547,7 @@
           {
             "name": "github.com/spiffe/go-spiffe/v2",
             "purl": "",
-            "version": "v2.6.0"
+            "version": "v2.7.0"
           },
           {
             "name": "github.com/stretchr/objx",
@@ -1577,7 +1557,7 @@
           {
             "name": "github.com/stretchr/testify",
             "purl": "",
-            "version": "v1.11.1"
+            "version": "v1.12.1"
           },
           {
             "name": "github.com/subosito/gotenv",
@@ -1592,7 +1572,7 @@
           {
             "name": "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common",
             "purl": "",
-            "version": "v1.3.133"
+            "version": "v1.3.170"
           },
           {
             "name": "github.com/tetratelabs/wazero",
@@ -1617,7 +1597,7 @@
           {
             "name": "github.com/traefik/traefik/v3",
             "purl": "",
-            "version": "v3.7.12"
+            "version": "v3.7.13"
           },
           {
             "name": "github.com/traefik/yaegi",
@@ -1627,7 +1607,7 @@
           {
             "name": "github.com/transip/gotransip/v6",
             "purl": "",
-            "version": "v6.27.2"
+            "version": "v6.28.0"
           },
           {
             "name": "github.com/tufanbarisyildirim/gonginx",
@@ -1637,7 +1617,7 @@
           {
             "name": "github.com/ucloud/ucloud-sdk-go",
             "purl": "",
-            "version": "v0.22.90"
+            "version": "v0.22.116"
           },
           {
             "name": "github.com/ultradns/ultradns-go-sdk",
@@ -1672,7 +1652,7 @@
           {
             "name": "github.com/volcengine/volc-sdk-golang",
             "purl": "",
-            "version": "v1.0.251"
+            "version": "v1.0.256"
           },
           {
             "name": "github.com/vulcand/oxy/v2",
@@ -1687,7 +1667,7 @@
           {
             "name": "github.com/vultr/govultr/v3",
             "purl": "",
-            "version": "v3.31.2"
+            "version": "v3.32.0"
           },
           {
             "name": "github.com/x448/float16",
@@ -1697,17 +1677,17 @@
           {
             "name": "github.com/yandex-cloud/go-genproto",
             "purl": "",
-            "version": "v0.95.0"
+            "version": "v0.117.0"
           },
           {
             "name": "github.com/yandex-cloud/go-sdk/services/dns",
             "purl": "",
-            "version": "v0.0.65"
+            "version": "v0.0.94"
           },
           {
             "name": "github.com/yandex-cloud/go-sdk/v2",
             "purl": "",
-            "version": "v2.136.0"
+            "version": "v2.169.0"
           },
           {
             "name": "github.com/youmark/pkcs8",
@@ -1877,12 +1857,12 @@
           {
             "name": "go.yaml.in/yaml/v3",
             "purl": "",
-            "version": "v3.0.4"
+            "version": "v3.0.5"
           },
           {
             "name": "golang.org/x/crypto",
             "purl": "",
-            "version": "v0.55.0"
+            "version": "v0.56.0"
           },
           {
             "name": "golang.org/x/exp",
@@ -1937,27 +1917,27 @@
           {
             "name": "google.golang.org/api",
             "purl": "",
-            "version": "v0.288.0"
+            "version": "v0.295.0"
           },
           {
             "name": "google.golang.org/genproto/googleapis/api",
             "purl": "",
-            "version": "v0.0.0-20260526163538-3dc84a4a5aaa"
+            "version": "v0.0.0-20260715232425-e75dac1f907d"
           },
           {
             "name": "google.golang.org/genproto/googleapis/rpc",
             "purl": "",
-            "version": "v0.0.0-20260630182238-925bb5da69e7"
+            "version": "v0.0.0-20260819154853-08b0e4226688"
           },
           {
             "name": "google.golang.org/grpc",
             "purl": "",
-            "version": "v1.82.1"
+            "version": "v1.83.2"
           },
           {
             "name": "google.golang.org/protobuf",
             "purl": "",
-            "version": "v1.36.12-0.20260120151049-f2248ac996af"
+            "version": "v1.36.12"
           },
           {
             "name": "gopkg.in/evanphx/json-patch.v4",
@@ -2082,7 +2062,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.7"
+            "version": "v1.26.8"
           }
         ],
         "java": [],
@@ -2096,20 +2076,20 @@
       "summary": {
         "dotnet": 0,
         "freebsd": 39,
-        "go": 360,
+        "go": 356,
         "java": 0,
         "node": 0,
         "php": 0,
         "python": 0,
         "ruby": 0,
         "rust": 0,
-        "total": 399
+        "total": 395
       }
     },
     "latest": {
-      "app_version": "v3.7.12",
+      "app_version": "v3.7.13",
       "arch": "amd64",
-      "generated": "2026-09-08T10:18:33Z",
+      "generated": "2026-09-10T16:42:52Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2342,7 +2322,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.128"
+            "version": "3.129"
           },
           {
             "licenses": [
@@ -2396,7 +2376,7 @@
           {
             "name": "cloud.google.com/go/auth",
             "purl": "",
-            "version": "v0.20.0"
+            "version": "v0.23.2"
           },
           {
             "name": "cloud.google.com/go/auth/oauth2adapt",
@@ -2416,12 +2396,12 @@
           {
             "name": "github.com/Azure/azure-sdk-for-go/sdk/azcore",
             "purl": "",
-            "version": "v1.22.0"
+            "version": "v1.23.1"
           },
           {
             "name": "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
             "purl": "",
-            "version": "v1.14.0"
+            "version": "v1.14.1"
           },
           {
             "name": "github.com/Azure/azure-sdk-for-go/sdk/internal",
@@ -2446,7 +2426,7 @@
           {
             "name": "github.com/AzureAD/microsoft-authentication-library-for-go",
             "purl": "",
-            "version": "v1.7.2"
+            "version": "v1.8.0"
           },
           {
             "name": "github.com/BurntSushi/toml",
@@ -2481,7 +2461,7 @@
           {
             "name": "github.com/akamai/AkamaiOPEN-edgegrid-golang/v13",
             "purl": "",
-            "version": "v13.3.0"
+            "version": "v13.4.0"
           },
           {
             "name": "github.com/alibabacloud-go/alibabacloud-gateway-spi",
@@ -2491,7 +2471,7 @@
           {
             "name": "github.com/alibabacloud-go/darabonba-openapi/v2",
             "purl": "",
-            "version": "v2.2.3"
+            "version": "v2.2.4"
           },
           {
             "name": "github.com/alibabacloud-go/debug",
@@ -2501,7 +2481,7 @@
           {
             "name": "github.com/alibabacloud-go/tea",
             "purl": "",
-            "version": "v1.5.2"
+            "version": "v1.5.3"
           },
           {
             "name": "github.com/alibabacloud-go/tea-utils/v2",
@@ -2526,37 +2506,37 @@
           {
             "name": "github.com/aws/aws-sdk-go-v2",
             "purl": "",
-            "version": "v1.42.1"
+            "version": "v1.45.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/config",
             "purl": "",
-            "version": "v1.32.30"
+            "version": "v1.33.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/credentials",
             "purl": "",
-            "version": "v1.19.29"
+            "version": "v1.20.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
             "purl": "",
-            "version": "v1.18.30"
+            "version": "v1.19.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/internal/configsources",
             "purl": "",
-            "version": "v1.4.30"
+            "version": "v1.5.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
             "purl": "",
-            "version": "v2.7.30"
+            "version": "v2.8.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/internal/v4a",
             "purl": "",
-            "version": "v1.4.31"
+            "version": "v1.5.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/ec2",
@@ -2571,27 +2551,27 @@
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
             "purl": "",
-            "version": "v1.13.13"
+            "version": "v1.13.19"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
             "purl": "",
-            "version": "v1.13.30"
+            "version": "v1.14.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/lightsail",
             "purl": "",
-            "version": "v1.57.1"
+            "version": "v1.60.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/route53",
             "purl": "",
-            "version": "v1.64.1"
+            "version": "v1.67.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/signin",
             "purl": "",
-            "version": "v1.4.1"
+            "version": "v1.7.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/ssm",
@@ -2601,32 +2581,32 @@
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/sso",
             "purl": "",
-            "version": "v1.32.1"
+            "version": "v1.35.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/ssooidc",
             "purl": "",
-            "version": "v1.37.1"
+            "version": "v1.40.1"
           },
           {
             "name": "github.com/aws/aws-sdk-go-v2/service/sts",
             "purl": "",
-            "version": "v1.44.1"
+            "version": "v1.47.1"
           },
           {
             "name": "github.com/aws/smithy-go",
             "purl": "",
-            "version": "v1.27.3"
+            "version": "v1.28.1"
           },
           {
             "name": "github.com/aziontech/azionapi-go-sdk",
             "purl": "",
-            "version": "v0.147.0"
+            "version": "v0.148.0"
           },
           {
             "name": "github.com/baidubce/bce-sdk-go",
             "purl": "",
-            "version": "v0.9.270"
+            "version": "v0.9.275"
           },
           {
             "name": "github.com/benbjohnson/clock",
@@ -2731,12 +2711,12 @@
           {
             "name": "github.com/dnsimple/dnsimple-go/v9",
             "purl": "",
-            "version": "v9.1.0"
+            "version": "v9.1.1"
           },
           {
             "name": "github.com/docker/cli",
             "purl": "",
-            "version": "v29.4.0+incompatible"
+            "version": "v29.7.2+incompatible"
           },
           {
             "name": "github.com/docker/go-connections",
@@ -2761,12 +2741,12 @@
           {
             "name": "github.com/exoscale/egoscale/v3",
             "purl": "",
-            "version": "v3.1.41"
+            "version": "v3.1.46"
           },
           {
             "name": "github.com/fatih/color",
             "purl": "",
-            "version": "v1.18.0"
+            "version": "v1.19.0"
           },
           {
             "name": "github.com/fatih/structs",
@@ -2801,12 +2781,12 @@
           {
             "name": "github.com/go-acme/alidns-20150109/v5",
             "purl": "",
-            "version": "v5.5.0"
+            "version": "v5.6.1"
           },
           {
             "name": "github.com/go-acme/esa-20240910/v3",
             "purl": "",
-            "version": "v3.4.0"
+            "version": "v3.13.0"
           },
           {
             "name": "github.com/go-acme/jdcloud-sdk-go",
@@ -2816,17 +2796,17 @@
           {
             "name": "github.com/go-acme/lego/v5",
             "purl": "",
-            "version": "v5.3.1"
+            "version": "v5.4.1"
           },
           {
             "name": "github.com/go-acme/tencentclouddnspod",
             "purl": "",
-            "version": "v1.3.24"
+            "version": "v1.3.131"
           },
           {
             "name": "github.com/go-acme/tencentedgdeone",
             "purl": "",
-            "version": "v1.3.38"
+            "version": "v1.3.170"
           },
           {
             "name": "github.com/go-errors/errors",
@@ -3036,12 +3016,12 @@
           {
             "name": "github.com/googleapis/enterprise-certificate-proxy",
             "purl": "",
-            "version": "v0.3.17"
+            "version": "v0.3.20"
           },
           {
             "name": "github.com/googleapis/gax-go/v2",
             "purl": "",
-            "version": "v2.22.0"
+            "version": "v2.24.0"
           },
           {
             "name": "github.com/gophercloud/gophercloud",
@@ -3156,7 +3136,7 @@
           {
             "name": "github.com/huaweicloud/huaweicloud-sdk-go-v3",
             "purl": "",
-            "version": "v0.1.205"
+            "version": "v0.1.213"
           },
           {
             "name": "github.com/imdario/mergo",
@@ -3181,7 +3161,7 @@
           {
             "name": "github.com/infobloxopen/infoblox-go-client/v2",
             "purl": "",
-            "version": "v2.11.0"
+            "version": "v2.12.0"
           },
           {
             "name": "github.com/jcmturner/aescts/v2",
@@ -3311,12 +3291,12 @@
           {
             "name": "github.com/mattn/go-isatty",
             "purl": "",
-            "version": "v0.0.22"
+            "version": "v0.0.24"
           },
           {
             "name": "github.com/miekg/dns",
             "purl": "",
-            "version": "v1.1.72"
+            "version": "v1.1.73"
           },
           {
             "name": "github.com/mimuret/golang-iij-dpf",
@@ -3436,12 +3416,12 @@
           {
             "name": "github.com/nrdcg/oci-go-sdk/common/v1065",
             "purl": "",
-            "version": "v1065.120.0"
+            "version": "v1065.124.0"
           },
           {
             "name": "github.com/nrdcg/oci-go-sdk/dns/v1065",
             "purl": "",
-            "version": "v1065.120.0"
+            "version": "v1065.124.0"
           },
           {
             "name": "github.com/nrdcg/porkbun",
@@ -3541,7 +3521,7 @@
           {
             "name": "github.com/quic-go/quic-go",
             "purl": "",
-            "version": "v0.61.0"
+            "version": "v0.62.0"
           },
           {
             "name": "github.com/redis/go-redis/v9",
@@ -3551,7 +3531,7 @@
           {
             "name": "github.com/regfish/regfish-dnsapi-go",
             "purl": "",
-            "version": "v0.1.1"
+            "version": "v0.2.0"
           },
           {
             "name": "github.com/rs/cors",
@@ -3564,29 +3544,9 @@
             "version": "v1.34.0"
           },
           {
-            "name": "github.com/sacloud/api-client-go",
-            "purl": "",
-            "version": "v0.3.5"
-          },
-          {
-            "name": "github.com/sacloud/go-http",
-            "purl": "",
-            "version": "v0.1.9"
-          },
-          {
-            "name": "github.com/sacloud/iaas-api-go",
-            "purl": "",
-            "version": "v1.29.2"
-          },
-          {
-            "name": "github.com/sacloud/packages-go",
+            "name": "github.com/sacloud/sacloud-sdk-go",
             "purl": "",
             "version": "v0.1.0"
-          },
-          {
-            "name": "github.com/sacloud/saclient-go",
-            "purl": "",
-            "version": "v0.4.0"
           },
           {
             "name": "github.com/sagikazarmark/slog-shim",
@@ -3611,7 +3571,7 @@
           {
             "name": "github.com/scaleway/scaleway-sdk-go",
             "purl": "",
-            "version": "v1.0.0-beta.36"
+            "version": "v1.0.0-beta.37"
           },
           {
             "name": "github.com/selectel/domains-go",
@@ -3671,7 +3631,7 @@
           {
             "name": "github.com/spiffe/go-spiffe/v2",
             "purl": "",
-            "version": "v2.6.0"
+            "version": "v2.7.0"
           },
           {
             "name": "github.com/stretchr/objx",
@@ -3681,7 +3641,7 @@
           {
             "name": "github.com/stretchr/testify",
             "purl": "",
-            "version": "v1.11.1"
+            "version": "v1.12.1"
           },
           {
             "name": "github.com/subosito/gotenv",
@@ -3696,7 +3656,7 @@
           {
             "name": "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common",
             "purl": "",
-            "version": "v1.3.133"
+            "version": "v1.3.170"
           },
           {
             "name": "github.com/tetratelabs/wazero",
@@ -3721,7 +3681,7 @@
           {
             "name": "github.com/traefik/traefik/v3",
             "purl": "",
-            "version": "v3.7.12"
+            "version": "v3.7.13"
           },
           {
             "name": "github.com/traefik/yaegi",
@@ -3731,7 +3691,7 @@
           {
             "name": "github.com/transip/gotransip/v6",
             "purl": "",
-            "version": "v6.27.2"
+            "version": "v6.28.0"
           },
           {
             "name": "github.com/tufanbarisyildirim/gonginx",
@@ -3741,7 +3701,7 @@
           {
             "name": "github.com/ucloud/ucloud-sdk-go",
             "purl": "",
-            "version": "v0.22.90"
+            "version": "v0.22.116"
           },
           {
             "name": "github.com/ultradns/ultradns-go-sdk",
@@ -3776,7 +3736,7 @@
           {
             "name": "github.com/volcengine/volc-sdk-golang",
             "purl": "",
-            "version": "v1.0.251"
+            "version": "v1.0.256"
           },
           {
             "name": "github.com/vulcand/oxy/v2",
@@ -3791,7 +3751,7 @@
           {
             "name": "github.com/vultr/govultr/v3",
             "purl": "",
-            "version": "v3.31.2"
+            "version": "v3.32.0"
           },
           {
             "name": "github.com/x448/float16",
@@ -3801,17 +3761,17 @@
           {
             "name": "github.com/yandex-cloud/go-genproto",
             "purl": "",
-            "version": "v0.95.0"
+            "version": "v0.117.0"
           },
           {
             "name": "github.com/yandex-cloud/go-sdk/services/dns",
             "purl": "",
-            "version": "v0.0.65"
+            "version": "v0.0.94"
           },
           {
             "name": "github.com/yandex-cloud/go-sdk/v2",
             "purl": "",
-            "version": "v2.136.0"
+            "version": "v2.169.0"
           },
           {
             "name": "github.com/youmark/pkcs8",
@@ -3981,12 +3941,12 @@
           {
             "name": "go.yaml.in/yaml/v3",
             "purl": "",
-            "version": "v3.0.4"
+            "version": "v3.0.5"
           },
           {
             "name": "golang.org/x/crypto",
             "purl": "",
-            "version": "v0.55.0"
+            "version": "v0.56.0"
           },
           {
             "name": "golang.org/x/exp",
@@ -4041,27 +4001,27 @@
           {
             "name": "google.golang.org/api",
             "purl": "",
-            "version": "v0.288.0"
+            "version": "v0.295.0"
           },
           {
             "name": "google.golang.org/genproto/googleapis/api",
             "purl": "",
-            "version": "v0.0.0-20260526163538-3dc84a4a5aaa"
+            "version": "v0.0.0-20260715232425-e75dac1f907d"
           },
           {
             "name": "google.golang.org/genproto/googleapis/rpc",
             "purl": "",
-            "version": "v0.0.0-20260630182238-925bb5da69e7"
+            "version": "v0.0.0-20260819154853-08b0e4226688"
           },
           {
             "name": "google.golang.org/grpc",
             "purl": "",
-            "version": "v1.82.1"
+            "version": "v1.83.2"
           },
           {
             "name": "google.golang.org/protobuf",
             "purl": "",
-            "version": "v1.36.12-0.20260120151049-f2248ac996af"
+            "version": "v1.36.12"
           },
           {
             "name": "gopkg.in/evanphx/json-patch.v4",
@@ -4186,7 +4146,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.7"
+            "version": "v1.26.8"
           }
         ],
         "java": [],
@@ -4200,20 +4160,20 @@
       "summary": {
         "dotnet": 0,
         "freebsd": 39,
-        "go": 360,
+        "go": 356,
         "java": 0,
         "node": 0,
         "php": 0,
         "python": 0,
         "ruby": 0,
         "rust": 0,
-        "total": 399
+        "total": 395
       }
     },
     "pkg": {
       "app_version": "3.7.11",
       "arch": "amd64",
-      "generated": "2026-09-08T10:18:29Z",
+      "generated": "2026-09-10T16:41:54Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4446,7 +4406,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.128"
+            "version": "3.129"
           },
           {
             "licenses": [
@@ -6324,7 +6284,7 @@
     "pkg-latest": {
       "app_version": "3.7.11_1",
       "arch": "amd64",
-      "generated": "2026-09-08T10:19:13Z",
+      "generated": "2026-09-10T16:45:29Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
