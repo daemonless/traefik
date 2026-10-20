@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-16T21:30:00Z",
+  "generated": "2026-10-20T00:07:52Z",
   "image": "traefik",
   "tags": {
     "k8s": {
       "app_version": "v3.7.15",
       "arch": "amd64",
-      "generated": "2026-10-16T21:29:12Z",
+      "generated": "2026-10-20T00:05:41Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2113,7 +2113,7 @@
     "latest": {
       "app_version": "v3.7.15",
       "arch": "amd64",
-      "generated": "2026-10-16T21:29:28Z",
+      "generated": "2026-10-20T00:06:22Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4221,7 +4221,7 @@
     "pkg": {
       "app_version": "3.7.14",
       "arch": "amd64",
-      "generated": "2026-10-16T21:26:19Z",
+      "generated": "2026-10-20T00:07:25Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -6334,9 +6334,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "3.7.14",
+      "app_version": "3.7.15",
       "arch": "amd64",
-      "generated": "2026-10-16T21:27:08Z",
+      "generated": "2026-10-20T00:07:04Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -6632,7 +6632,7 @@
               "MIT"
             ],
             "name": "traefik",
-            "version": "3.7.14"
+            "version": "3.7.15"
           }
         ],
         "go": [
@@ -8244,7 +8244,7 @@
           {
             "name": "golang.org/x/net",
             "purl": "",
-            "version": "v0.59.0"
+            "version": "v0.60.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -8394,7 +8394,7 @@
           {
             "name": "sigs.k8s.io/gateway-api",
             "purl": "",
-            "version": "v1.6.2"
+            "version": "v1.6.3"
           },
           {
             "name": "sigs.k8s.io/json",
