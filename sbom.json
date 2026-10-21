@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-20T00:07:52Z",
+  "generated": "2026-10-21T13:34:34Z",
   "image": "traefik",
   "tags": {
     "k8s": {
-      "app_version": "v3.7.15",
+      "app_version": "v3.7.16",
       "arch": "amd64",
-      "generated": "2026-10-20T00:05:41Z",
+      "generated": "2026-10-21T13:32:49Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -189,7 +189,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -238,7 +238,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -1626,7 +1626,7 @@
           {
             "name": "github.com/traefik/traefik/v3",
             "purl": "",
-            "version": "v3.7.15"
+            "version": "v3.7.16"
           },
           {
             "name": "github.com/traefik/yaegi",
@@ -2086,7 +2086,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.9"
+            "version": "v1.26.10"
           }
         ],
         "java": [],
@@ -2111,9 +2111,9 @@
       }
     },
     "latest": {
-      "app_version": "v3.7.15",
+      "app_version": "v3.7.16",
       "arch": "amd64",
-      "generated": "2026-10-20T00:06:22Z",
+      "generated": "2026-10-21T13:33:57Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2297,7 +2297,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -2346,7 +2346,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -3734,7 +3734,7 @@
           {
             "name": "github.com/traefik/traefik/v3",
             "purl": "",
-            "version": "v3.7.15"
+            "version": "v3.7.16"
           },
           {
             "name": "github.com/traefik/yaegi",
@@ -4194,7 +4194,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.9"
+            "version": "v1.26.10"
           }
         ],
         "java": [],
@@ -4221,7 +4221,7 @@
     "pkg": {
       "app_version": "3.7.14",
       "arch": "amd64",
-      "generated": "2026-10-20T00:07:25Z",
+      "generated": "2026-10-21T13:33:10Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4405,7 +4405,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -4454,7 +4454,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -6336,7 +6336,7 @@
     "pkg-latest": {
       "app_version": "3.7.15",
       "arch": "amd64",
-      "generated": "2026-10-20T00:07:04Z",
+      "generated": "2026-10-21T13:33:17Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -6520,7 +6520,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -6569,7 +6569,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
