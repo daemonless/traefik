@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-23T18:24:13Z",
+  "generated": "2026-10-23T22:10:42Z",
   "image": "traefik",
   "tags": {
     "latest": {
       "app_version": "v3.7.16",
       "arch": "amd64",
-      "generated": "2026-10-23T18:22:45Z",
+      "generated": "2026-10-23T22:08:52Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -252,7 +252,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.131.1"
           },
           {
             "licenses": [
@@ -2090,9 +2090,9 @@
       }
     },
     "pkg": {
-      "app_version": "3.7.15",
+      "app_version": "3.7.15_1",
       "arch": "amd64",
-      "generated": "2026-10-23T18:19:25Z",
+      "generated": "2026-10-23T22:04:46Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2339,7 +2339,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.131.1"
           },
           {
             "licenses": [
@@ -2367,7 +2367,7 @@
               "MIT"
             ],
             "name": "traefik",
-            "version": "3.7.15"
+            "version": "3.7.15_1"
           }
         ],
         "go": [
@@ -4159,7 +4159,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.9"
+            "version": "v1.26.10"
           }
         ],
         "java": [],
@@ -4186,7 +4186,7 @@
     "pkg-latest": {
       "app_version": "3.7.15_1",
       "arch": "amd64",
-      "generated": "2026-10-23T18:21:16Z",
+      "generated": "2026-10-23T22:08:54Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
