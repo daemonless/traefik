@@ -29,7 +29,7 @@ services:
     image: ghcr.io/daemonless/traefik:latest
     container_name: traefik
     restart: unless-stopped
-    
+
     environment:
       - PUID=1000
       - PGID=1000

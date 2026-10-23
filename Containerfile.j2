@@ -1,5 +1,5 @@
 ARG BASE_VERSION=15.1
-FROM ghcr.io/daemonless/base:${BASE_VERSION}
+FROM ghcr.io/daemonless/base-exec:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
 ARG PACKAGES="ca_root_nss"
@@ -13,12 +13,6 @@ ARG HEALTHCHECK_ENDPOINT="http://localhost:8080/ping"
 
 ENV HEALTHCHECK_URL="${HEALTHCHECK_ENDPOINT}"
 
-# Supervision mode. The :k8s variant builds with
-# --build-arg DAEMONLESS_SUPERVISE=orchestrator so a service exit terminates s6
-# and the container exits, letting the orchestrator restart the pod (see base
-# s6-finish-helper). Default "self" (:latest) keeps standalone self-healing.
-ARG DAEMONLESS_SUPERVISE="self"
-ENV DAEMONLESS_SUPERVISE="${DAEMONLESS_SUPERVISE}"
 
 # --- Metadata (Injected by Generator) ---
 LABEL org.opencontainers.image.title="{{ title }}" \
@@ -67,11 +61,10 @@ RUN mkdir -p /config /config/dynamic /config/letsencrypt && \
     chown -R bsd:bsd /config
 
 COPY root/ /
+RUN chmod +x /daemonless/libexec/traefik /daemonless/init.d/*
 
-RUN chmod +x /etc/services.d/traefik/run /etc/cont-init.d/* 2>/dev/null || true
-
-RUN mkdir -p /run/s6/services/traefik && \
-    ln -sf /etc/services.d/traefik/run /run/s6/services/traefik/run
+ENV DAEMONLESS_USER=root
+CMD ["/daemonless/libexec/traefik"]
 
 # --- Expose (Injected by Generator) ---
 {%- if ports %}

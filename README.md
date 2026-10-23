@@ -21,10 +21,9 @@ Modern HTTP reverse proxy and load balancer on FreeBSD.
 ## Version Tags
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
-| `latest` | **Upstream Binary**. Built from official release. | Most users — recommended. |
+| `k8s` / `latest` | **Upstream Binary**. Built from official release. | Most users — recommended. |
 | `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
 | `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
-| `k8s` | Same as :latest (s6) but with DAEMONLESS_SUPERVISE=orchestrator baked in: a service exit terminates the container so the orchestrator (Kubernetes, etc.) restarts the pod. | Alternative build. |
 
 ## Prerequisites
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
