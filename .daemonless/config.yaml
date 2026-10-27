@@ -1,6 +1,8 @@
 icon: ':material-server-network:'
 cit:
+  mode: health
   port: 8080
+  health: /dashboard/
   ready: "Starting provider"
 
 build:
