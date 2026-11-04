@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-04T08:16:14Z",
+  "generated": "2026-11-04T14:44:25Z",
   "image": "traefik",
   "tags": {
     "latest": {
       "app_version": "v3.7.17",
       "arch": "amd64",
-      "generated": "2026-11-04T08:15:29Z",
+      "generated": "2026-11-04T14:43:29Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2097,7 +2097,7 @@
     "pkg": {
       "app_version": "3.7.16",
       "arch": "amd64",
-      "generated": "2026-11-04T08:15:02Z",
+      "generated": "2026-11-04T14:43:54Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4191,7 +4191,7 @@
     "pkg-latest": {
       "app_version": "3.7.17",
       "arch": "amd64",
-      "generated": "2026-11-04T08:14:47Z",
+      "generated": "2026-11-04T14:43:13Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
