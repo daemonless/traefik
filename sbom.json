@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-10T23:15:49Z",
+  "generated": "2026-11-14T16:30:11Z",
   "image": "traefik",
   "tags": {
     "latest": {
-      "app_version": "v3.7.18",
+      "app_version": "v3.7.19",
       "arch": "amd64",
-      "generated": "2026-11-10T23:14:58Z",
+      "generated": "2026-11-14T16:29:31Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1135,7 +1135,7 @@
           {
             "name": "github.com/klauspost/compress",
             "purl": "",
-            "version": "v1.20.4-0.20261021124103-35c6f98a5cb9"
+            "version": "v1.20.4"
           },
           {
             "name": "github.com/kolo/xmlrpc",
@@ -1445,7 +1445,7 @@
           {
             "name": "github.com/quic-go/quic-go",
             "purl": "",
-            "version": "v0.64.1"
+            "version": "v0.65.0"
           },
           {
             "name": "github.com/redis/go-redis/v9",
@@ -1605,7 +1605,7 @@
           {
             "name": "github.com/traefik/traefik/v3",
             "purl": "",
-            "version": "v3.7.18"
+            "version": "v3.7.19"
           },
           {
             "name": "github.com/traefik/yaegi",
@@ -1870,7 +1870,7 @@
           {
             "name": "golang.org/x/crypto",
             "purl": "",
-            "version": "v0.58.0"
+            "version": "v0.59.0"
           },
           {
             "name": "golang.org/x/exp",
@@ -1895,22 +1895,22 @@
           {
             "name": "golang.org/x/sync",
             "purl": "",
-            "version": "v0.24.0"
+            "version": "v0.25.0"
           },
           {
             "name": "golang.org/x/sys",
             "purl": "",
-            "version": "v0.49.0"
+            "version": "v0.50.0"
           },
           {
             "name": "golang.org/x/term",
             "purl": "",
-            "version": "v0.47.0"
+            "version": "v0.48.0"
           },
           {
             "name": "golang.org/x/text",
             "purl": "",
-            "version": "v0.43.0"
+            "version": "v0.44.0"
           },
           {
             "name": "golang.org/x/time",
@@ -2065,7 +2065,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.27.3"
+            "version": "v1.27.4"
           }
         ],
         "java": [],
@@ -2092,7 +2092,7 @@
     "pkg": {
       "app_version": "3.7.17",
       "arch": "amd64",
-      "generated": "2026-11-10T23:13:57Z",
+      "generated": "2026-11-14T16:29:33Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4191,7 +4191,7 @@
     "pkg-latest": {
       "app_version": "3.7.17",
       "arch": "amd64",
-      "generated": "2026-11-10T23:13:44Z",
+      "generated": "2026-11-14T16:29:02Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
