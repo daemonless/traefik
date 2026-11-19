@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17T23:41:54Z",
+  "generated": "2026-11-19T22:58:21Z",
   "image": "traefik",
   "tags": {
     "latest": {
@@ -2090,9 +2090,9 @@
       }
     },
     "pkg": {
-      "app_version": "3.7.17_1",
+      "app_version": "3.7.19",
       "arch": "amd64",
-      "generated": "2026-11-15T09:16:12Z",
+      "generated": "2026-11-19T22:57:47Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2367,7 +2367,7 @@
               "MIT"
             ],
             "name": "traefik",
-            "version": "3.7.17_1"
+            "version": "3.7.19"
           }
         ],
         "go": [
@@ -3229,7 +3229,7 @@
           {
             "name": "github.com/klauspost/compress",
             "purl": "",
-            "version": "v1.20.4-0.20261021124103-35c6f98a5cb9"
+            "version": "v1.20.4"
           },
           {
             "name": "github.com/kolo/xmlrpc",
@@ -3300,11 +3300,6 @@
             "name": "github.com/magiconair/properties",
             "purl": "",
             "version": "v1.18.12"
-          },
-          {
-            "name": "github.com/mailgun/multibuf",
-            "purl": "",
-            "version": "v0.2.0"
           },
           {
             "name": "github.com/mattn/go-colorable",
@@ -3519,22 +3514,22 @@
           {
             "name": "github.com/prometheus/client_golang",
             "purl": "",
-            "version": "v1.23.2"
+            "version": "v1.25.0"
           },
           {
             "name": "github.com/prometheus/client_model",
             "purl": "",
-            "version": "v0.6.2"
+            "version": "v0.6.3"
           },
           {
             "name": "github.com/prometheus/common",
             "purl": "",
-            "version": "v0.67.5"
+            "version": "v0.72.0"
           },
           {
             "name": "github.com/prometheus/procfs",
             "purl": "",
-            "version": "v0.20.1"
+            "version": "v0.22.0"
           },
           {
             "name": "github.com/quic-go/qpack",
@@ -3544,7 +3539,7 @@
           {
             "name": "github.com/quic-go/quic-go",
             "purl": "",
-            "version": "v0.64.1"
+            "version": "v0.65.0"
           },
           {
             "name": "github.com/redis/go-redis/v9",
@@ -3709,7 +3704,7 @@
           {
             "name": "github.com/traefik/yaegi",
             "purl": "",
-            "version": "v0.16.1"
+            "version": "v0.16.3"
           },
           {
             "name": "github.com/transip/gotransip/v6",
@@ -3764,7 +3759,7 @@
           {
             "name": "github.com/vulcand/oxy/v2",
             "purl": "",
-            "version": "v2.3.0"
+            "version": "v2.3.2"
           },
           {
             "name": "github.com/vulcand/predicate",
@@ -3834,7 +3829,7 @@
           {
             "name": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
             "purl": "",
-            "version": "v0.70.0"
+            "version": "v0.72.0"
           },
           {
             "name": "go.opentelemetry.io/contrib/propagators/autoprop",
@@ -3864,7 +3859,7 @@
           {
             "name": "go.opentelemetry.io/otel",
             "purl": "",
-            "version": "v1.46.0"
+            "version": "v1.47.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploggrpc",
@@ -3879,42 +3874,42 @@
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc",
             "purl": "",
-            "version": "v1.46.0"
+            "version": "v1.47.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp",
             "purl": "",
-            "version": "v1.46.0"
+            "version": "v1.47.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace",
             "purl": "",
-            "version": "v1.46.0"
+            "version": "v1.47.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc",
             "purl": "",
-            "version": "v1.46.0"
+            "version": "v1.47.0"
           },
           {
             "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp",
             "purl": "",
-            "version": "v1.46.0"
+            "version": "v1.47.0"
           },
           {
             "name": "go.opentelemetry.io/otel/log",
             "purl": "",
-            "version": "v0.22.0"
+            "version": "v1.47.0"
           },
           {
             "name": "go.opentelemetry.io/otel/metric",
             "purl": "",
-            "version": "v1.46.0"
+            "version": "v1.47.0"
           },
           {
             "name": "go.opentelemetry.io/otel/sdk",
             "purl": "",
-            "version": "v1.46.0"
+            "version": "v1.47.0"
           },
           {
             "name": "go.opentelemetry.io/otel/sdk/log",
@@ -3924,12 +3919,12 @@
           {
             "name": "go.opentelemetry.io/otel/sdk/metric",
             "purl": "",
-            "version": "v1.46.0"
+            "version": "v1.47.0"
           },
           {
             "name": "go.opentelemetry.io/otel/trace",
             "purl": "",
-            "version": "v1.46.0"
+            "version": "v1.47.0"
           },
           {
             "name": "go.opentelemetry.io/proto/otlp",
@@ -3964,12 +3959,12 @@
           {
             "name": "go.yaml.in/yaml/v3",
             "purl": "",
-            "version": "v3.0.5"
+            "version": "v3.0.6"
           },
           {
             "name": "golang.org/x/crypto",
             "purl": "",
-            "version": "v0.58.0"
+            "version": "v0.59.0"
           },
           {
             "name": "golang.org/x/exp",
@@ -3994,22 +3989,22 @@
           {
             "name": "golang.org/x/sync",
             "purl": "",
-            "version": "v0.24.0"
+            "version": "v0.25.0"
           },
           {
             "name": "golang.org/x/sys",
             "purl": "",
-            "version": "v0.49.0"
+            "version": "v0.50.0"
           },
           {
             "name": "golang.org/x/term",
             "purl": "",
-            "version": "v0.47.0"
+            "version": "v0.48.0"
           },
           {
             "name": "golang.org/x/text",
             "purl": "",
-            "version": "v0.43.0"
+            "version": "v0.44.0"
           },
           {
             "name": "golang.org/x/time",
@@ -4029,7 +4024,7 @@
           {
             "name": "google.golang.org/genproto/googleapis/api",
             "purl": "",
-            "version": "v0.0.0-20260819154853-08b0e4226688"
+            "version": "v0.0.0-20260928230214-8a89bd6388cc"
           },
           {
             "name": "google.golang.org/genproto/googleapis/rpc",
@@ -4084,22 +4079,22 @@
           {
             "name": "k8s.io/api",
             "purl": "",
-            "version": "v0.36.3"
+            "version": "v0.36.5"
           },
           {
             "name": "k8s.io/apiextensions-apiserver",
             "purl": "",
-            "version": "v0.36.3"
+            "version": "v0.36.5"
           },
           {
             "name": "k8s.io/apimachinery",
             "purl": "",
-            "version": "v0.36.3"
+            "version": "v0.36.5"
           },
           {
             "name": "k8s.io/client-go",
             "purl": "",
-            "version": "v0.36.3"
+            "version": "v0.36.5"
           },
           {
             "name": "k8s.io/klog/v2",
@@ -4119,12 +4114,12 @@
           {
             "name": "knative.dev/networking",
             "purl": "",
-            "version": "v0.0.0-20251217020127-11890a5dabea"
+            "version": "v0.0.0-20261102012212-6bc1029107dc"
           },
           {
             "name": "knative.dev/pkg",
             "purl": "",
-            "version": "v0.0.0-20251216153728-9c8140b780d1"
+            "version": "v0.0.0-20261102011501-7b6dcbbe4ea4"
           },
           {
             "name": "mvdan.cc/xurls/v2",
@@ -4178,14 +4173,14 @@
       "summary": {
         "dotnet": 0,
         "freebsd": 39,
-        "go": 359,
+        "go": 358,
         "java": 0,
         "node": 0,
         "php": 0,
         "python": 0,
         "ruby": 0,
         "rust": 0,
-        "total": 398
+        "total": 397
       }
     },
     "pkg-latest": {
